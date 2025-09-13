@@ -1,10 +1,14 @@
 Tópicos de Inteligencia Artificial
+
 Información General
+
 Universidad: Tecnológico Nacional de México, Campus Culiacán
 
 Materia: Tópicos de Inteligencia Artificial
 
-Profesor: Mora Félix Zuriel Dathan
+Profesor:
+
+Mora Félix Zuriel Dathan
 
 Integrantes:
 
