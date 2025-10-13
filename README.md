@@ -20,4 +20,4 @@ Contenido por Unidades
 
 Unidad 1: Proyecto de Investigación y Presentación del tema: "Uso de la IA para la detección, predicción y prevención de las plagas".
 
-Unidad 2: Proyecto de Optimizacion de RRutas de Distribucion utiizando Recocido Simulado
+Unidad 2: Proyecto de Optimizacion de Rutas de Distribucion utiizando Recocido Simulado
