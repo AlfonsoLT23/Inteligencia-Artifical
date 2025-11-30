@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <TableLayout
+            android:id="@+id/tablaVehiculos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp">
+
+            <TableRow>
+                <TextView android:text="Placa" android:padding="8dp" android:textStyle="bold"/>
+                <TextView android:text="Usuario" android:padding="8dp" android:textStyle="bold"/>
+                <TextView android:text="Marca" android:padding="8dp" android:textStyle="bold"/>
+                <TextView android:text="Modelo" android:padding="8dp" android:textStyle="bold"/>
+                <TextView android:text="Color" android:padding="8dp" android:textStyle="bold"/>
+                <TextView android:text="Año" android:padding="8dp" android:textStyle="bold"/>
+                <TextView android:text="Estado" android:padding="8dp" android:textStyle="bold"/>
+            </TableRow>
+
+        </TableLayout>
+
+    </ScrollView>
+</HorizontalScrollView>

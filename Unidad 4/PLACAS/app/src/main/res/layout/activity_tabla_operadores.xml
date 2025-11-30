@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <TableLayout
+            android:id="@+id/tablaOperadores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp">
+
+            <TableRow>
+                <TextView android:text="ID" android:padding="8dp" android:textStyle="bold"/>
+                <TextView android:text="Nombre" android:padding="8dp" android:textStyle="bold"/>
+                <TextView android:text="Teléfono" android:padding="8dp" android:textStyle="bold"/>
+                <TextView android:text="Email" android:padding="8dp" android:textStyle="bold"/>
+                <TextView android:text="Estado" android:padding="8dp" android:textStyle="bold"/>
+            </TableRow>
+
+        </TableLayout>
+
+    </ScrollView>
+</HorizontalScrollView>

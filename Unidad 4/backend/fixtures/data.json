@@ -1,0 +1,148 @@
+[
+  {
+    "model": "api.Usuario",
+    "pk": 1,
+    "fields": {
+      "nombre_completo": "Héctor Medina Ramírez",
+      "tipo_usuario": "alumno",
+      "telefono": "6621400001",
+      "email": "hmedina@example.com",
+      "fecha_registro": "2025-11-25",
+      "discapacitado": false,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Usuario",
+    "pk": 2,
+    "fields": {
+      "nombre_completo": "Brenda Castillo Gómez",
+      "tipo_usuario": "alumno",
+      "telefono": "6621400002",
+      "email": "bcastillo@example.com",
+      "fecha_registro": "2025-11-25",
+      "discapacitado": false,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Usuario",
+    "pk": 3,
+    "fields": {
+      "nombre_completo": "Manuel Torres Delgado",
+      "tipo_usuario": "alumno",
+      "telefono": "6621400003",
+      "email": "mtorres@example.com",
+      "fecha_registro": "2025-11-25",
+      "discapacitado": false,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Usuario",
+    "pk": 4,
+    "fields": {
+      "nombre_completo": "Alfonso Lara",
+      "tipo_usuario": "alumno",
+      "telefono": "6674090471",
+      "email": "alfonsolaratorres23@outlook.es",
+      "fecha_registro": "2025-11-25",
+      "discapacitado": false,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Operador",
+    "pk": 1,
+    "fields": {
+      "nombre_completo": "José Enrique Félix Esparragoza",
+      "telefono": "6675068989",
+      "email": "joseenriquefelixesparragoza@hotmail.com",
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "ABC123",
+    "fields": {
+      "usuario": 1,
+      "marca": "Toyota",
+      "modelo": "Corolla",
+      "color": "Blanco",
+      "anio": 2018,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "DEF456",
+    "fields": {
+      "usuario": 1,
+      "marca": "Honda",
+      "modelo": "Civic",
+      "color": "Rojo",
+      "anio": 2020,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "GHI789",
+    "fields": {
+      "usuario": 2,
+      "marca": "Nissan",
+      "modelo": "Versa",
+      "color": "Negro",
+      "anio": 2019,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "JKL111",
+    "fields": {
+      "usuario": 2,
+      "marca": "Mazda",
+      "modelo": "3",
+      "color": "Azul",
+      "anio": 2021,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "VKF-592-C",
+    "fields": {
+      "usuario": 4,
+      "marca": "Ford",
+      "modelo": "Mustang",
+      "color": "Rojo",
+      "anio": 2020,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "MNO222",
+    "fields": {
+      "usuario": 3,
+      "marca": "Chevrolet",
+      "modelo": "Onix",
+      "color": "Gris",
+      "anio": 2020,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "PQR333",
+    "fields": {
+      "usuario": 3,
+      "marca": "Kia",
+      "modelo": "Rio",
+      "color": "Blanco",
+      "anio": 2019,
+      "estado": true
+    }
+  }
+]

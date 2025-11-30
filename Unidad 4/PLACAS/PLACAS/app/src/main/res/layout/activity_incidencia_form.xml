@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgPreview"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:background="#444" />
+
+        <EditText
+            android:id="@+id/txtPlaca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Placa detectada"
+            android:enabled="false" />
+
+        <EditText
+            android:id="@+id/txtOperadorId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID del Operador"
+            android:inputType="number"
+            android:maxLength="10" />
+
+        <EditText
+            android:id="@+id/txtDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descripción de la incidencia" />
+
+        <Button
+            android:id="@+id/btnEnviar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enviar incidencia" />
+
+        <!-- Tabla de usuario, inicialmente oculta -->
+        <TableLayout
+            android:id="@+id/tablaUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1"
+            android:visibility="gone"
+            android:layout_marginTop="20dp">
+
+            <TableRow>
+                <TextView
+                    android:text="Nombre"
+                    android:padding="5dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/tvNombreUsuario"
+                    android:padding="5dp"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Tipo"
+                    android:padding="5dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/tvTipoUsuario"
+                    android:padding="5dp"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Teléfono"
+                    android:padding="5dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/tvTelefonoUsuario"
+                    android:padding="5dp"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Email"
+                    android:padding="5dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/tvEmailUsuario"
+                    android:padding="5dp"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Discapacitado"
+                    android:padding="5dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/tvDiscapacitadoUsuario"
+                    android:padding="5dp"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Estado"
+                    android:padding="5dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/tvEstadoUsuario"
+                    android:padding="5dp"/>
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+</ScrollView>
