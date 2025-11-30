@@ -1,0 +1,3901 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1c06fc893aa4bdad0b055bedcff328da {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1c06fc893aa4bdad0b055bedcff328da" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1c06fc893aa4bdad0b055bedcff328da = L.map(
+                "map_1c06fc893aa4bdad0b055bedcff328da",
+                {
+                    center: [24.79620883, -107.40260635000003],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1ad2cc286ffb5f78e2d189e83a937b01 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_1ad2cc286ffb5f78e2d189e83a937b01.addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var marker_1a49429176b2a95b28e74876aeb0a8fd = L.marker(
+                [24.774908, -107.309857],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_fd5082dda96bf927f8010ab0cf34b940 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_164d82f09530d8ddd41d2baa61c0ed0f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a29335bf3e799a3a67df8d9f1fdc2efe = $(`<div id="html_a29335bf3e799a3a67df8d9f1fdc2efe" style="width: 100.0%; height: 100.0%;">Centro de Distribución 1 (Centro de Distribución)</div>`)[0];
+                popup_164d82f09530d8ddd41d2baa61c0ed0f.setContent(html_a29335bf3e799a3a67df8d9f1fdc2efe);
+            
+        
+
+        marker_1a49429176b2a95b28e74876aeb0a8fd.bindPopup(popup_164d82f09530d8ddd41d2baa61c0ed0f)
+        ;
+
+        
+    
+    
+                marker_1a49429176b2a95b28e74876aeb0a8fd.setIcon(icon_fd5082dda96bf927f8010ab0cf34b940);
+            
+    
+            var marker_cd2ee3fc9bdabd8d21e58170d2ce74c0 = L.marker(
+                [24.846399, -107.380268],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_4733fe4529d2d41abd42296eaa92c1ce = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_862f442ce1c15ce859e691b895e53b8d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc754de28f7f2eee00ecc2ecd07b13e6 = $(`<div id="html_fc754de28f7f2eee00ecc2ecd07b13e6" style="width: 100.0%; height: 100.0%;">Centro de Distribución 2 (Centro de Distribución)</div>`)[0];
+                popup_862f442ce1c15ce859e691b895e53b8d.setContent(html_fc754de28f7f2eee00ecc2ecd07b13e6);
+            
+        
+
+        marker_cd2ee3fc9bdabd8d21e58170d2ce74c0.bindPopup(popup_862f442ce1c15ce859e691b895e53b8d)
+        ;
+
+        
+    
+    
+                marker_cd2ee3fc9bdabd8d21e58170d2ce74c0.setIcon(icon_4733fe4529d2d41abd42296eaa92c1ce);
+            
+    
+            var marker_5e213a9de876d95be1f984ff6d8260f0 = L.marker(
+                [24.731204, -107.468801],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_d53772c762832e096ef6368846fd6450 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_24949261a3f3bf536176597057506584 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0490feab566ab33211b205b4723411e5 = $(`<div id="html_0490feab566ab33211b205b4723411e5" style="width: 100.0%; height: 100.0%;">Centro de Distribución 3 (Centro de Distribución)</div>`)[0];
+                popup_24949261a3f3bf536176597057506584.setContent(html_0490feab566ab33211b205b4723411e5);
+            
+        
+
+        marker_5e213a9de876d95be1f984ff6d8260f0.bindPopup(popup_24949261a3f3bf536176597057506584)
+        ;
+
+        
+    
+    
+                marker_5e213a9de876d95be1f984ff6d8260f0.setIcon(icon_d53772c762832e096ef6368846fd6450);
+            
+    
+            var marker_7d6e572c4057568f60259208add160b2 = L.marker(
+                [24.711617, -107.326765],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_5169c2a9a16294c5ece481d9502262ca = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_be3808bd177fc58d683742918def70a5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_132f74f8de8ed9b56f151f2451500e21 = $(`<div id="html_132f74f8de8ed9b56f151f2451500e21" style="width: 100.0%; height: 100.0%;">Centro de Distribución 4 (Centro de Distribución)</div>`)[0];
+                popup_be3808bd177fc58d683742918def70a5.setContent(html_132f74f8de8ed9b56f151f2451500e21);
+            
+        
+
+        marker_7d6e572c4057568f60259208add160b2.bindPopup(popup_be3808bd177fc58d683742918def70a5)
+        ;
+
+        
+    
+    
+                marker_7d6e572c4057568f60259208add160b2.setIcon(icon_5169c2a9a16294c5ece481d9502262ca);
+            
+    
+            var marker_e8e21adfb51469feeade2da4bcc7eaab = L.marker(
+                [24.820223, -107.358385],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_63582d2f650068c25da1558011c425d3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d8fd8c0680b3e4ae72ba818d8a2fdfa5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c9de9670dda99faba79896bd38199559 = $(`<div id="html_c9de9670dda99faba79896bd38199559" style="width: 100.0%; height: 100.0%;">Centro de Distribución 5 (Centro de Distribución)</div>`)[0];
+                popup_d8fd8c0680b3e4ae72ba818d8a2fdfa5.setContent(html_c9de9670dda99faba79896bd38199559);
+            
+        
+
+        marker_e8e21adfb51469feeade2da4bcc7eaab.bindPopup(popup_d8fd8c0680b3e4ae72ba818d8a2fdfa5)
+        ;
+
+        
+    
+    
+                marker_e8e21adfb51469feeade2da4bcc7eaab.setIcon(icon_63582d2f650068c25da1558011c425d3);
+            
+    
+            var marker_06203276befea115804feb5fceecb8fd = L.marker(
+                [24.704117, -107.306018],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_a2585a759757cc2f417cd98676a096a7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9b4259a4a93d15f8a48b745e25c174e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_665fe668b03a56c5a42fdaa8f4a8acb1 = $(`<div id="html_665fe668b03a56c5a42fdaa8f4a8acb1" style="width: 100.0%; height: 100.0%;">Centro de Distribución 6 (Centro de Distribución)</div>`)[0];
+                popup_9b4259a4a93d15f8a48b745e25c174e2.setContent(html_665fe668b03a56c5a42fdaa8f4a8acb1);
+            
+        
+
+        marker_06203276befea115804feb5fceecb8fd.bindPopup(popup_9b4259a4a93d15f8a48b745e25c174e2)
+        ;
+
+        
+    
+    
+                marker_06203276befea115804feb5fceecb8fd.setIcon(icon_a2585a759757cc2f417cd98676a096a7);
+            
+    
+            var marker_8eb71d14a2b11a8f06705711dba8cb1b = L.marker(
+                [24.866489, -107.457532],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_fb113bf25056d28bc212e6c9e7072b22 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_eab83148586a1eb28ef60ed93f52b173 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_657b95ff62be0c91d271c3cccf1676d0 = $(`<div id="html_657b95ff62be0c91d271c3cccf1676d0" style="width: 100.0%; height: 100.0%;">Centro de Distribución 7 (Centro de Distribución)</div>`)[0];
+                popup_eab83148586a1eb28ef60ed93f52b173.setContent(html_657b95ff62be0c91d271c3cccf1676d0);
+            
+        
+
+        marker_8eb71d14a2b11a8f06705711dba8cb1b.bindPopup(popup_eab83148586a1eb28ef60ed93f52b173)
+        ;
+
+        
+    
+    
+                marker_8eb71d14a2b11a8f06705711dba8cb1b.setIcon(icon_fb113bf25056d28bc212e6c9e7072b22);
+            
+    
+            var marker_f8e0c898d89394b2244a31a082ae54c1 = L.marker(
+                [24.736365, -107.463319],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_a28ed1e50708a9598260f425332df972 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_60f197acbf6c800c1e3c0e5dc72fa848 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_684c26d0f8db58745ae7d3124dcc1bd9 = $(`<div id="html_684c26d0f8db58745ae7d3124dcc1bd9" style="width: 100.0%; height: 100.0%;">Centro de Distribución 8 (Centro de Distribución)</div>`)[0];
+                popup_60f197acbf6c800c1e3c0e5dc72fa848.setContent(html_684c26d0f8db58745ae7d3124dcc1bd9);
+            
+        
+
+        marker_f8e0c898d89394b2244a31a082ae54c1.bindPopup(popup_60f197acbf6c800c1e3c0e5dc72fa848)
+        ;
+
+        
+    
+    
+                marker_f8e0c898d89394b2244a31a082ae54c1.setIcon(icon_a28ed1e50708a9598260f425332df972);
+            
+    
+            var marker_9efb2d18708129dabeefe26602271110 = L.marker(
+                [24.760848, -107.395049],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_b28df2b58cee60f99855ed407be0c2c7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aee9f26b487a9054254c8a9da16f4d4a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5300fe8676c555a40247db169074dbc3 = $(`<div id="html_5300fe8676c555a40247db169074dbc3" style="width: 100.0%; height: 100.0%;">Centro de Distribución 9 (Centro de Distribución)</div>`)[0];
+                popup_aee9f26b487a9054254c8a9da16f4d4a.setContent(html_5300fe8676c555a40247db169074dbc3);
+            
+        
+
+        marker_9efb2d18708129dabeefe26602271110.bindPopup(popup_aee9f26b487a9054254c8a9da16f4d4a)
+        ;
+
+        
+    
+    
+                marker_9efb2d18708129dabeefe26602271110.setIcon(icon_b28df2b58cee60f99855ed407be0c2c7);
+            
+    
+            var marker_af8ef363612c6f8be0a2c4e537a62722 = L.marker(
+                [24.786389, -107.441754],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_6f46bf22423532ee3d19a48be57b145a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b21fae892f3e77aa35cd377fabf1f38d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_76600148c9e6c76246bb18bd66713152 = $(`<div id="html_76600148c9e6c76246bb18bd66713152" style="width: 100.0%; height: 100.0%;">Centro de Distribución 10 (Centro de Distribución)</div>`)[0];
+                popup_b21fae892f3e77aa35cd377fabf1f38d.setContent(html_76600148c9e6c76246bb18bd66713152);
+            
+        
+
+        marker_af8ef363612c6f8be0a2c4e537a62722.bindPopup(popup_b21fae892f3e77aa35cd377fabf1f38d)
+        ;
+
+        
+    
+    
+                marker_af8ef363612c6f8be0a2c4e537a62722.setIcon(icon_6f46bf22423532ee3d19a48be57b145a);
+            
+    
+            var marker_76f6ea59db66ecd1cc98d266ea169658 = L.marker(
+                [24.822371, -107.472101],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_52a7f6e6cdab0a3a7503bf5a4253d795 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e3cea30229489cf0e9e2440ab54e20d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15eb9c624e1d1fba46ce3e4c9a715d61 = $(`<div id="html_15eb9c624e1d1fba46ce3e4c9a715d61" style="width: 100.0%; height: 100.0%;">Tienda 1 (Nivel: C)</div>`)[0];
+                popup_e3cea30229489cf0e9e2440ab54e20d4.setContent(html_15eb9c624e1d1fba46ce3e4c9a715d61);
+            
+        
+
+        marker_76f6ea59db66ecd1cc98d266ea169658.bindPopup(popup_e3cea30229489cf0e9e2440ab54e20d4)
+        ;
+
+        
+    
+    
+                marker_76f6ea59db66ecd1cc98d266ea169658.setIcon(icon_52a7f6e6cdab0a3a7503bf5a4253d795);
+            
+    
+            var marker_f94553bc34614108af452b4bc3861bd5 = L.marker(
+                [24.758429, -107.426728],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_5f4abdac41c9918e5b7188a14de22a5b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5530bf1973eacad3ee9833c482be3963 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a580912258d238311baacd5e52e90fe9 = $(`<div id="html_a580912258d238311baacd5e52e90fe9" style="width: 100.0%; height: 100.0%;">Tienda 2 (Nivel: B)</div>`)[0];
+                popup_5530bf1973eacad3ee9833c482be3963.setContent(html_a580912258d238311baacd5e52e90fe9);
+            
+        
+
+        marker_f94553bc34614108af452b4bc3861bd5.bindPopup(popup_5530bf1973eacad3ee9833c482be3963)
+        ;
+
+        
+    
+    
+                marker_f94553bc34614108af452b4bc3861bd5.setIcon(icon_5f4abdac41c9918e5b7188a14de22a5b);
+            
+    
+            var marker_f3eb1c5f7664f604afafa2f767df4a14 = L.marker(
+                [24.791214, -107.342965],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_e539321f563e9956e4b2f1112b97f831 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d22151491a750f1a4e9da2d8a474aa63 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b1c53d8f16890326a154d3afdd0ff3c4 = $(`<div id="html_b1c53d8f16890326a154d3afdd0ff3c4" style="width: 100.0%; height: 100.0%;">Tienda 3 (Nivel: C)</div>`)[0];
+                popup_d22151491a750f1a4e9da2d8a474aa63.setContent(html_b1c53d8f16890326a154d3afdd0ff3c4);
+            
+        
+
+        marker_f3eb1c5f7664f604afafa2f767df4a14.bindPopup(popup_d22151491a750f1a4e9da2d8a474aa63)
+        ;
+
+        
+    
+    
+                marker_f3eb1c5f7664f604afafa2f767df4a14.setIcon(icon_e539321f563e9956e4b2f1112b97f831);
+            
+    
+            var marker_6af55f3a5debc6c1f06f65a1eb0c0375 = L.marker(
+                [24.739935, -107.397153],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_fd090e1a70130b94134fe2dce7b5402f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8d26bfbabb65d60a6d41b08870c02fa7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c4db9d64a199bf4808b625d6afb2168 = $(`<div id="html_5c4db9d64a199bf4808b625d6afb2168" style="width: 100.0%; height: 100.0%;">Tienda 4 (Nivel: A)</div>`)[0];
+                popup_8d26bfbabb65d60a6d41b08870c02fa7.setContent(html_5c4db9d64a199bf4808b625d6afb2168);
+            
+        
+
+        marker_6af55f3a5debc6c1f06f65a1eb0c0375.bindPopup(popup_8d26bfbabb65d60a6d41b08870c02fa7)
+        ;
+
+        
+    
+    
+                marker_6af55f3a5debc6c1f06f65a1eb0c0375.setIcon(icon_fd090e1a70130b94134fe2dce7b5402f);
+            
+    
+            var marker_6e4fcf77d31794108fe81d00579e5afb = L.marker(
+                [24.818483, -107.49071],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_a5889c2cca115b727d52629e312b764a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f9b594230275effe63ff563f03d7cf89 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e3ff6ae89f80d772d326d603903dfb52 = $(`<div id="html_e3ff6ae89f80d772d326d603903dfb52" style="width: 100.0%; height: 100.0%;">Tienda 5 (Nivel: B)</div>`)[0];
+                popup_f9b594230275effe63ff563f03d7cf89.setContent(html_e3ff6ae89f80d772d326d603903dfb52);
+            
+        
+
+        marker_6e4fcf77d31794108fe81d00579e5afb.bindPopup(popup_f9b594230275effe63ff563f03d7cf89)
+        ;
+
+        
+    
+    
+                marker_6e4fcf77d31794108fe81d00579e5afb.setIcon(icon_a5889c2cca115b727d52629e312b764a);
+            
+    
+            var marker_209a33f91628ade53842ffae402adf6b = L.marker(
+                [24.821509, -107.465895],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_a955cda55752551e7696b676d4448582 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7a4c25e6da19ae5b6802cfe9cf82e5eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab4aafae0ff021ef8c1e885084d6a0c3 = $(`<div id="html_ab4aafae0ff021ef8c1e885084d6a0c3" style="width: 100.0%; height: 100.0%;">Tienda 6 (Nivel: A)</div>`)[0];
+                popup_7a4c25e6da19ae5b6802cfe9cf82e5eb.setContent(html_ab4aafae0ff021ef8c1e885084d6a0c3);
+            
+        
+
+        marker_209a33f91628ade53842ffae402adf6b.bindPopup(popup_7a4c25e6da19ae5b6802cfe9cf82e5eb)
+        ;
+
+        
+    
+    
+                marker_209a33f91628ade53842ffae402adf6b.setIcon(icon_a955cda55752551e7696b676d4448582);
+            
+    
+            var marker_a8a6accbeb04c45ebb9c1713cb1849f1 = L.marker(
+                [24.71301, -107.310223],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_ebd6e59023b2f60940bb90399dc08f4f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cae83f7373ca21ee6617f207211e18e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_801f21920c4ba3e1137377fd62e884cd = $(`<div id="html_801f21920c4ba3e1137377fd62e884cd" style="width: 100.0%; height: 100.0%;">Tienda 7 (Nivel: A)</div>`)[0];
+                popup_cae83f7373ca21ee6617f207211e18e9.setContent(html_801f21920c4ba3e1137377fd62e884cd);
+            
+        
+
+        marker_a8a6accbeb04c45ebb9c1713cb1849f1.bindPopup(popup_cae83f7373ca21ee6617f207211e18e9)
+        ;
+
+        
+    
+    
+                marker_a8a6accbeb04c45ebb9c1713cb1849f1.setIcon(icon_ebd6e59023b2f60940bb90399dc08f4f);
+            
+    
+            var marker_7215228fa0743939ea9737e92f70d423 = L.marker(
+                [24.893126, -107.338321],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_c77ab01c08149f1a672369aa51266069 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6e9ad877e26d4c65fc797a0ae05f4066 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4afd4ee9a66a6e9d02be1264f22aaa7c = $(`<div id="html_4afd4ee9a66a6e9d02be1264f22aaa7c" style="width: 100.0%; height: 100.0%;">Tienda 8 (Nivel: A)</div>`)[0];
+                popup_6e9ad877e26d4c65fc797a0ae05f4066.setContent(html_4afd4ee9a66a6e9d02be1264f22aaa7c);
+            
+        
+
+        marker_7215228fa0743939ea9737e92f70d423.bindPopup(popup_6e9ad877e26d4c65fc797a0ae05f4066)
+        ;
+
+        
+    
+    
+                marker_7215228fa0743939ea9737e92f70d423.setIcon(icon_c77ab01c08149f1a672369aa51266069);
+            
+    
+            var marker_dc2f5af671f686b50f7c08ee1eb8fe0f = L.marker(
+                [24.760923, -107.480466],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_b799425266ad7c330c8b55c656d6ecdc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7b574de54124c2548653f532a3de384d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_23f1bc2a53605a55250a274639887d2c = $(`<div id="html_23f1bc2a53605a55250a274639887d2c" style="width: 100.0%; height: 100.0%;">Tienda 9 (Nivel: C)</div>`)[0];
+                popup_7b574de54124c2548653f532a3de384d.setContent(html_23f1bc2a53605a55250a274639887d2c);
+            
+        
+
+        marker_dc2f5af671f686b50f7c08ee1eb8fe0f.bindPopup(popup_7b574de54124c2548653f532a3de384d)
+        ;
+
+        
+    
+    
+                marker_dc2f5af671f686b50f7c08ee1eb8fe0f.setIcon(icon_b799425266ad7c330c8b55c656d6ecdc);
+            
+    
+            var marker_e8e81083fe54f4a162a3c2a726a25a73 = L.marker(
+                [24.836847, -107.41197],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_02c6b8419047d01759cb6e020433de5c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6c9c2b23866e1c2f00359f34553be70f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d60021329de2ae569efb7f3c49f30bc0 = $(`<div id="html_d60021329de2ae569efb7f3c49f30bc0" style="width: 100.0%; height: 100.0%;">Tienda 10 (Nivel: C)</div>`)[0];
+                popup_6c9c2b23866e1c2f00359f34553be70f.setContent(html_d60021329de2ae569efb7f3c49f30bc0);
+            
+        
+
+        marker_e8e81083fe54f4a162a3c2a726a25a73.bindPopup(popup_6c9c2b23866e1c2f00359f34553be70f)
+        ;
+
+        
+    
+    
+                marker_e8e81083fe54f4a162a3c2a726a25a73.setIcon(icon_02c6b8419047d01759cb6e020433de5c);
+            
+    
+            var marker_c567553e2f41669abd3ddbf512435c34 = L.marker(
+                [24.724408, -107.400965],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_bb822480c50a0386984997f4c11553b5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f1543d0af0abd2a3c50e0178481bfb73 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_de9104bc1b5301329af85e39a6fb7dd7 = $(`<div id="html_de9104bc1b5301329af85e39a6fb7dd7" style="width: 100.0%; height: 100.0%;">Tienda 11 (Nivel: A)</div>`)[0];
+                popup_f1543d0af0abd2a3c50e0178481bfb73.setContent(html_de9104bc1b5301329af85e39a6fb7dd7);
+            
+        
+
+        marker_c567553e2f41669abd3ddbf512435c34.bindPopup(popup_f1543d0af0abd2a3c50e0178481bfb73)
+        ;
+
+        
+    
+    
+                marker_c567553e2f41669abd3ddbf512435c34.setIcon(icon_bb822480c50a0386984997f4c11553b5);
+            
+    
+            var marker_34305734e90d2b30195e2b0def183567 = L.marker(
+                [24.706878, -107.318136],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_f7a27cafbc8f8c6e2eb4714b7865ba44 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cadffba0de76d9a1016ff29892d95aff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_95a29964c59e2d46f7d060c75b46c740 = $(`<div id="html_95a29964c59e2d46f7d060c75b46c740" style="width: 100.0%; height: 100.0%;">Tienda 12 (Nivel: C)</div>`)[0];
+                popup_cadffba0de76d9a1016ff29892d95aff.setContent(html_95a29964c59e2d46f7d060c75b46c740);
+            
+        
+
+        marker_34305734e90d2b30195e2b0def183567.bindPopup(popup_cadffba0de76d9a1016ff29892d95aff)
+        ;
+
+        
+    
+    
+                marker_34305734e90d2b30195e2b0def183567.setIcon(icon_f7a27cafbc8f8c6e2eb4714b7865ba44);
+            
+    
+            var marker_7473a077e8260d060683b462d9dddc0b = L.marker(
+                [24.751756, -107.367496],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_36c2a09b55c9db39c3408c6746b33907 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f555d87c87dbeb5e13264aff8d2d713d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4fbf33973cd867a1e2dc2e13bac9dd4d = $(`<div id="html_4fbf33973cd867a1e2dc2e13bac9dd4d" style="width: 100.0%; height: 100.0%;">Tienda 13 (Nivel: C)</div>`)[0];
+                popup_f555d87c87dbeb5e13264aff8d2d713d.setContent(html_4fbf33973cd867a1e2dc2e13bac9dd4d);
+            
+        
+
+        marker_7473a077e8260d060683b462d9dddc0b.bindPopup(popup_f555d87c87dbeb5e13264aff8d2d713d)
+        ;
+
+        
+    
+    
+                marker_7473a077e8260d060683b462d9dddc0b.setIcon(icon_36c2a09b55c9db39c3408c6746b33907);
+            
+    
+            var marker_ad2def694f3f60d0e6b1f84afb431b1a = L.marker(
+                [24.762342, -107.395986],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_a894d12467fb1d8717daa9e9779b1e4a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_763b294570fb7fbe30ede4be9b272548 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6b4b1a848ca9b002eeabd85fa84b8071 = $(`<div id="html_6b4b1a848ca9b002eeabd85fa84b8071" style="width: 100.0%; height: 100.0%;">Tienda 14 (Nivel: C)</div>`)[0];
+                popup_763b294570fb7fbe30ede4be9b272548.setContent(html_6b4b1a848ca9b002eeabd85fa84b8071);
+            
+        
+
+        marker_ad2def694f3f60d0e6b1f84afb431b1a.bindPopup(popup_763b294570fb7fbe30ede4be9b272548)
+        ;
+
+        
+    
+    
+                marker_ad2def694f3f60d0e6b1f84afb431b1a.setIcon(icon_a894d12467fb1d8717daa9e9779b1e4a);
+            
+    
+            var marker_9027381de406ae50332e527920a66013 = L.marker(
+                [24.809342, -107.463029],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_b610a8ccd4b1f48377c8b78f3ae9808f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_688f7ce22efe2a37cd4de37e2fcdff90 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0314f138d84983d3d3bf0cf3d2020c27 = $(`<div id="html_0314f138d84983d3d3bf0cf3d2020c27" style="width: 100.0%; height: 100.0%;">Tienda 15 (Nivel: A)</div>`)[0];
+                popup_688f7ce22efe2a37cd4de37e2fcdff90.setContent(html_0314f138d84983d3d3bf0cf3d2020c27);
+            
+        
+
+        marker_9027381de406ae50332e527920a66013.bindPopup(popup_688f7ce22efe2a37cd4de37e2fcdff90)
+        ;
+
+        
+    
+    
+                marker_9027381de406ae50332e527920a66013.setIcon(icon_b610a8ccd4b1f48377c8b78f3ae9808f);
+            
+    
+            var marker_ac2b4bc29afe6427459da0ba2f9acb57 = L.marker(
+                [24.893917, -107.344973],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_18a63cc907f16ea7cdbebf186be2e101 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1c9af72b2eea94aa10cf02e401a56502 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_95094dc0c27f8438d9a45cd78c342290 = $(`<div id="html_95094dc0c27f8438d9a45cd78c342290" style="width: 100.0%; height: 100.0%;">Tienda 16 (Nivel: A)</div>`)[0];
+                popup_1c9af72b2eea94aa10cf02e401a56502.setContent(html_95094dc0c27f8438d9a45cd78c342290);
+            
+        
+
+        marker_ac2b4bc29afe6427459da0ba2f9acb57.bindPopup(popup_1c9af72b2eea94aa10cf02e401a56502)
+        ;
+
+        
+    
+    
+                marker_ac2b4bc29afe6427459da0ba2f9acb57.setIcon(icon_18a63cc907f16ea7cdbebf186be2e101);
+            
+    
+            var marker_858d8c39ea330bd1fcda718c2b32dc83 = L.marker(
+                [24.8879, -107.321035],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_6014145f6ff7e1de772509948c47109a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6ffa79ef566429eced4597933469fafd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_719cd891966a8b07b47ffe262465c5b9 = $(`<div id="html_719cd891966a8b07b47ffe262465c5b9" style="width: 100.0%; height: 100.0%;">Tienda 17 (Nivel: A)</div>`)[0];
+                popup_6ffa79ef566429eced4597933469fafd.setContent(html_719cd891966a8b07b47ffe262465c5b9);
+            
+        
+
+        marker_858d8c39ea330bd1fcda718c2b32dc83.bindPopup(popup_6ffa79ef566429eced4597933469fafd)
+        ;
+
+        
+    
+    
+                marker_858d8c39ea330bd1fcda718c2b32dc83.setIcon(icon_6014145f6ff7e1de772509948c47109a);
+            
+    
+            var marker_950ef1c4095bedfa595bb2ba49e76372 = L.marker(
+                [24.81958, -107.315625],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_3e9a1ec0fd52ea9747b4ad33c4d95c62 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a2be58921be146bb20a91a12fd3a2f58 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1ba12ddf2df81aa1568b3c7a3eea6943 = $(`<div id="html_1ba12ddf2df81aa1568b3c7a3eea6943" style="width: 100.0%; height: 100.0%;">Tienda 18 (Nivel: A)</div>`)[0];
+                popup_a2be58921be146bb20a91a12fd3a2f58.setContent(html_1ba12ddf2df81aa1568b3c7a3eea6943);
+            
+        
+
+        marker_950ef1c4095bedfa595bb2ba49e76372.bindPopup(popup_a2be58921be146bb20a91a12fd3a2f58)
+        ;
+
+        
+    
+    
+                marker_950ef1c4095bedfa595bb2ba49e76372.setIcon(icon_3e9a1ec0fd52ea9747b4ad33c4d95c62);
+            
+    
+            var marker_5dadd53a5a3916b5ae4b1af7067c445b = L.marker(
+                [24.717699, -107.460803],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_365d1830fcc1179dd1d677f09b6f1e79 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_383a1684c1c67d5301732da90292dea8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_32edc127f39641507918bd4fa9cb220a = $(`<div id="html_32edc127f39641507918bd4fa9cb220a" style="width: 100.0%; height: 100.0%;">Tienda 19 (Nivel: B)</div>`)[0];
+                popup_383a1684c1c67d5301732da90292dea8.setContent(html_32edc127f39641507918bd4fa9cb220a);
+            
+        
+
+        marker_5dadd53a5a3916b5ae4b1af7067c445b.bindPopup(popup_383a1684c1c67d5301732da90292dea8)
+        ;
+
+        
+    
+    
+                marker_5dadd53a5a3916b5ae4b1af7067c445b.setIcon(icon_365d1830fcc1179dd1d677f09b6f1e79);
+            
+    
+            var marker_0415810547f7b9e196cd0c0d88394431 = L.marker(
+                [24.709045, -107.434934],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_b14afdca31c99152b7b6f9f118c52c47 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c0922181cf04c42b196f1d50d796c8aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da4162ee5852bbd28ec46f3e5c3747a4 = $(`<div id="html_da4162ee5852bbd28ec46f3e5c3747a4" style="width: 100.0%; height: 100.0%;">Tienda 20 (Nivel: A)</div>`)[0];
+                popup_c0922181cf04c42b196f1d50d796c8aa.setContent(html_da4162ee5852bbd28ec46f3e5c3747a4);
+            
+        
+
+        marker_0415810547f7b9e196cd0c0d88394431.bindPopup(popup_c0922181cf04c42b196f1d50d796c8aa)
+        ;
+
+        
+    
+    
+                marker_0415810547f7b9e196cd0c0d88394431.setIcon(icon_b14afdca31c99152b7b6f9f118c52c47);
+            
+    
+            var marker_8c8c4888d160d74b251fe5be1ecfa238 = L.marker(
+                [24.777735, -107.44573],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_28cdd5f5564922c949180c10309e796f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_acf72cd1a2bd9f72bf43b48417ee20c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a076656b73e6d1f77d82e5a8a22144c = $(`<div id="html_5a076656b73e6d1f77d82e5a8a22144c" style="width: 100.0%; height: 100.0%;">Tienda 21 (Nivel: A)</div>`)[0];
+                popup_acf72cd1a2bd9f72bf43b48417ee20c0.setContent(html_5a076656b73e6d1f77d82e5a8a22144c);
+            
+        
+
+        marker_8c8c4888d160d74b251fe5be1ecfa238.bindPopup(popup_acf72cd1a2bd9f72bf43b48417ee20c0)
+        ;
+
+        
+    
+    
+                marker_8c8c4888d160d74b251fe5be1ecfa238.setIcon(icon_28cdd5f5564922c949180c10309e796f);
+            
+    
+            var marker_2c976598b1790cb373211cbffc2f3a52 = L.marker(
+                [24.865748, -107.428649],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_4cfe055649bccf4545a42413d7263b55 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d67efd88d9fff6cf10e2178d986f99f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_114c4cd39c620da5764fb30666652b4a = $(`<div id="html_114c4cd39c620da5764fb30666652b4a" style="width: 100.0%; height: 100.0%;">Tienda 22 (Nivel: C)</div>`)[0];
+                popup_d67efd88d9fff6cf10e2178d986f99f5.setContent(html_114c4cd39c620da5764fb30666652b4a);
+            
+        
+
+        marker_2c976598b1790cb373211cbffc2f3a52.bindPopup(popup_d67efd88d9fff6cf10e2178d986f99f5)
+        ;
+
+        
+    
+    
+                marker_2c976598b1790cb373211cbffc2f3a52.setIcon(icon_4cfe055649bccf4545a42413d7263b55);
+            
+    
+            var marker_e1474b65d785e35da6005d40023aca91 = L.marker(
+                [24.756187, -107.391461],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_0b2e671c6954311cbf884e85d2352e35 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9162fbf4f7565369159e129adfbfc3b4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1399a78e8112396a2eacdc8eb8532397 = $(`<div id="html_1399a78e8112396a2eacdc8eb8532397" style="width: 100.0%; height: 100.0%;">Tienda 23 (Nivel: A)</div>`)[0];
+                popup_9162fbf4f7565369159e129adfbfc3b4.setContent(html_1399a78e8112396a2eacdc8eb8532397);
+            
+        
+
+        marker_e1474b65d785e35da6005d40023aca91.bindPopup(popup_9162fbf4f7565369159e129adfbfc3b4)
+        ;
+
+        
+    
+    
+                marker_e1474b65d785e35da6005d40023aca91.setIcon(icon_0b2e671c6954311cbf884e85d2352e35);
+            
+    
+            var marker_ce5b1fa37379dd19f1ec65db02fdeb4d = L.marker(
+                [24.728185, -107.339561],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_e12cc9d5d78f7402ebd04b38bff6848a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b4b3cf2f9bdd94e61020fdb0dd17f174 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2ff3051fc333003907db495d03ec6236 = $(`<div id="html_2ff3051fc333003907db495d03ec6236" style="width: 100.0%; height: 100.0%;">Tienda 24 (Nivel: A)</div>`)[0];
+                popup_b4b3cf2f9bdd94e61020fdb0dd17f174.setContent(html_2ff3051fc333003907db495d03ec6236);
+            
+        
+
+        marker_ce5b1fa37379dd19f1ec65db02fdeb4d.bindPopup(popup_b4b3cf2f9bdd94e61020fdb0dd17f174)
+        ;
+
+        
+    
+    
+                marker_ce5b1fa37379dd19f1ec65db02fdeb4d.setIcon(icon_e12cc9d5d78f7402ebd04b38bff6848a);
+            
+    
+            var marker_dbe8f9192229291b43fd3cda387cc654 = L.marker(
+                [24.71491, -107.302623],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_a4e5b1f7e0cbc056b838f090b87654e5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9687322ae8d7ebb142c4895d6326a326 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_05cd7327c0c37df2467e8c35565de639 = $(`<div id="html_05cd7327c0c37df2467e8c35565de639" style="width: 100.0%; height: 100.0%;">Tienda 25 (Nivel: A)</div>`)[0];
+                popup_9687322ae8d7ebb142c4895d6326a326.setContent(html_05cd7327c0c37df2467e8c35565de639);
+            
+        
+
+        marker_dbe8f9192229291b43fd3cda387cc654.bindPopup(popup_9687322ae8d7ebb142c4895d6326a326)
+        ;
+
+        
+    
+    
+                marker_dbe8f9192229291b43fd3cda387cc654.setIcon(icon_a4e5b1f7e0cbc056b838f090b87654e5);
+            
+    
+            var marker_9d5e7fc524753bb9cf37eb1e66ed56ba = L.marker(
+                [24.854449, -107.460257],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_0fdf373bc0536cfc44f98218365c2860 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f4d3659ab10734922886b520c73ca8ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_24179ba4660e5c12972cb4fa46fc8516 = $(`<div id="html_24179ba4660e5c12972cb4fa46fc8516" style="width: 100.0%; height: 100.0%;">Tienda 26 (Nivel: B)</div>`)[0];
+                popup_f4d3659ab10734922886b520c73ca8ea.setContent(html_24179ba4660e5c12972cb4fa46fc8516);
+            
+        
+
+        marker_9d5e7fc524753bb9cf37eb1e66ed56ba.bindPopup(popup_f4d3659ab10734922886b520c73ca8ea)
+        ;
+
+        
+    
+    
+                marker_9d5e7fc524753bb9cf37eb1e66ed56ba.setIcon(icon_0fdf373bc0536cfc44f98218365c2860);
+            
+    
+            var marker_ba5cba81d4f92113c9bc6e2536ef68ed = L.marker(
+                [24.701104, -107.336908],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_da17dc3faf296e69539eb10545034419 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f2a2bb9ca205cc6ac7909cef502efb14 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_441f8ef3198d4a4fc142bd7ac8b009d8 = $(`<div id="html_441f8ef3198d4a4fc142bd7ac8b009d8" style="width: 100.0%; height: 100.0%;">Tienda 27 (Nivel: C)</div>`)[0];
+                popup_f2a2bb9ca205cc6ac7909cef502efb14.setContent(html_441f8ef3198d4a4fc142bd7ac8b009d8);
+            
+        
+
+        marker_ba5cba81d4f92113c9bc6e2536ef68ed.bindPopup(popup_f2a2bb9ca205cc6ac7909cef502efb14)
+        ;
+
+        
+    
+    
+                marker_ba5cba81d4f92113c9bc6e2536ef68ed.setIcon(icon_da17dc3faf296e69539eb10545034419);
+            
+    
+            var marker_15923439e7245a3a9fcd5c088593914f = L.marker(
+                [24.841371, -107.354199],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_83a39bb401fcb5c4a8169085d884198a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3a97fac4133ed3c8fe2b51e3789d7e4b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce171948345f583879be48aa5a463bb3 = $(`<div id="html_ce171948345f583879be48aa5a463bb3" style="width: 100.0%; height: 100.0%;">Tienda 28 (Nivel: C)</div>`)[0];
+                popup_3a97fac4133ed3c8fe2b51e3789d7e4b.setContent(html_ce171948345f583879be48aa5a463bb3);
+            
+        
+
+        marker_15923439e7245a3a9fcd5c088593914f.bindPopup(popup_3a97fac4133ed3c8fe2b51e3789d7e4b)
+        ;
+
+        
+    
+    
+                marker_15923439e7245a3a9fcd5c088593914f.setIcon(icon_83a39bb401fcb5c4a8169085d884198a);
+            
+    
+            var marker_b44f96a526255056c8c678589c903e9f = L.marker(
+                [24.854254, -107.485191],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_aa42015452b16489c942a3c4aae9da4c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_03014c7e531ad82a9a7625a9819682fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b54955bfabffd3a715a90923cec184cb = $(`<div id="html_b54955bfabffd3a715a90923cec184cb" style="width: 100.0%; height: 100.0%;">Tienda 29 (Nivel: A)</div>`)[0];
+                popup_03014c7e531ad82a9a7625a9819682fe.setContent(html_b54955bfabffd3a715a90923cec184cb);
+            
+        
+
+        marker_b44f96a526255056c8c678589c903e9f.bindPopup(popup_03014c7e531ad82a9a7625a9819682fe)
+        ;
+
+        
+    
+    
+                marker_b44f96a526255056c8c678589c903e9f.setIcon(icon_aa42015452b16489c942a3c4aae9da4c);
+            
+    
+            var marker_5345b343df2e8165c7dddb1ae342a312 = L.marker(
+                [24.771693, -107.476826],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_03180984a8475f0a31f69b76b582af0b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_25d6f2e661ff3fd62650691c2f54c2ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1118842a17dc352315835161fc4f0347 = $(`<div id="html_1118842a17dc352315835161fc4f0347" style="width: 100.0%; height: 100.0%;">Tienda 30 (Nivel: B)</div>`)[0];
+                popup_25d6f2e661ff3fd62650691c2f54c2ba.setContent(html_1118842a17dc352315835161fc4f0347);
+            
+        
+
+        marker_5345b343df2e8165c7dddb1ae342a312.bindPopup(popup_25d6f2e661ff3fd62650691c2f54c2ba)
+        ;
+
+        
+    
+    
+                marker_5345b343df2e8165c7dddb1ae342a312.setIcon(icon_03180984a8475f0a31f69b76b582af0b);
+            
+    
+            var marker_74c31bd390b45adc40508b983abda4f7 = L.marker(
+                [24.872621, -107.37534],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_e5a18c6341a40bce4e8f5d66f2db1e4f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bfbd0f9627386e393efb041eb11ba142 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d347194ddc335f7d091d146e7a9711ff = $(`<div id="html_d347194ddc335f7d091d146e7a9711ff" style="width: 100.0%; height: 100.0%;">Tienda 31 (Nivel: A)</div>`)[0];
+                popup_bfbd0f9627386e393efb041eb11ba142.setContent(html_d347194ddc335f7d091d146e7a9711ff);
+            
+        
+
+        marker_74c31bd390b45adc40508b983abda4f7.bindPopup(popup_bfbd0f9627386e393efb041eb11ba142)
+        ;
+
+        
+    
+    
+                marker_74c31bd390b45adc40508b983abda4f7.setIcon(icon_e5a18c6341a40bce4e8f5d66f2db1e4f);
+            
+    
+            var marker_0cf338a2003cb52b54e455b6258a1b1f = L.marker(
+                [24.76618, -107.487288],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_be368c25df3c243d01931244835a8377 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6141bfc31b3b5ef9fee120cc57877de3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ba883655fe96cd070cc6ecd83625b195 = $(`<div id="html_ba883655fe96cd070cc6ecd83625b195" style="width: 100.0%; height: 100.0%;">Tienda 32 (Nivel: C)</div>`)[0];
+                popup_6141bfc31b3b5ef9fee120cc57877de3.setContent(html_ba883655fe96cd070cc6ecd83625b195);
+            
+        
+
+        marker_0cf338a2003cb52b54e455b6258a1b1f.bindPopup(popup_6141bfc31b3b5ef9fee120cc57877de3)
+        ;
+
+        
+    
+    
+                marker_0cf338a2003cb52b54e455b6258a1b1f.setIcon(icon_be368c25df3c243d01931244835a8377);
+            
+    
+            var marker_a1d49d836f4eb0ca2b9f4c8d8bfe1349 = L.marker(
+                [24.762196, -107.434963],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_5c6d7ff757846876bf98d6e6f227a95e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6183f448d98de84c09d2118d6a6dfa12 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8671a3484d8e2f62d1041c8d20098fea = $(`<div id="html_8671a3484d8e2f62d1041c8d20098fea" style="width: 100.0%; height: 100.0%;">Tienda 33 (Nivel: C)</div>`)[0];
+                popup_6183f448d98de84c09d2118d6a6dfa12.setContent(html_8671a3484d8e2f62d1041c8d20098fea);
+            
+        
+
+        marker_a1d49d836f4eb0ca2b9f4c8d8bfe1349.bindPopup(popup_6183f448d98de84c09d2118d6a6dfa12)
+        ;
+
+        
+    
+    
+                marker_a1d49d836f4eb0ca2b9f4c8d8bfe1349.setIcon(icon_5c6d7ff757846876bf98d6e6f227a95e);
+            
+    
+            var marker_fa4ae5e8b6169a6fad74d778fe55d862 = L.marker(
+                [24.845921, -107.372489],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_49fc78218496c0a5bade7a6d07b9722e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fadf6197a837e3715ef99202e6eeccca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f31ffc6e36c6fc85d1ecbd36c2505423 = $(`<div id="html_f31ffc6e36c6fc85d1ecbd36c2505423" style="width: 100.0%; height: 100.0%;">Tienda 34 (Nivel: C)</div>`)[0];
+                popup_fadf6197a837e3715ef99202e6eeccca.setContent(html_f31ffc6e36c6fc85d1ecbd36c2505423);
+            
+        
+
+        marker_fa4ae5e8b6169a6fad74d778fe55d862.bindPopup(popup_fadf6197a837e3715ef99202e6eeccca)
+        ;
+
+        
+    
+    
+                marker_fa4ae5e8b6169a6fad74d778fe55d862.setIcon(icon_49fc78218496c0a5bade7a6d07b9722e);
+            
+    
+            var marker_73b93cb77d7e0eb1fa150d85b39f7458 = L.marker(
+                [24.877443, -107.405557],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_6b0b4d9f18156cde988c3c8235849a2c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9084be0c00551548f764c490e0567e8c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b052e68c855aa846a12bf7179d89698d = $(`<div id="html_b052e68c855aa846a12bf7179d89698d" style="width: 100.0%; height: 100.0%;">Tienda 35 (Nivel: B)</div>`)[0];
+                popup_9084be0c00551548f764c490e0567e8c.setContent(html_b052e68c855aa846a12bf7179d89698d);
+            
+        
+
+        marker_73b93cb77d7e0eb1fa150d85b39f7458.bindPopup(popup_9084be0c00551548f764c490e0567e8c)
+        ;
+
+        
+    
+    
+                marker_73b93cb77d7e0eb1fa150d85b39f7458.setIcon(icon_6b0b4d9f18156cde988c3c8235849a2c);
+            
+    
+            var marker_cec69c09faf1011abef64ec26c67218f = L.marker(
+                [24.723919, -107.357351],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_68dd8a29bed8c53d2bb5aaa87f73f069 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_455f41badf2e1c11a148ee047b6d8738 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6304bd5b9839f7af2518cc9de09ef1a9 = $(`<div id="html_6304bd5b9839f7af2518cc9de09ef1a9" style="width: 100.0%; height: 100.0%;">Tienda 36 (Nivel: C)</div>`)[0];
+                popup_455f41badf2e1c11a148ee047b6d8738.setContent(html_6304bd5b9839f7af2518cc9de09ef1a9);
+            
+        
+
+        marker_cec69c09faf1011abef64ec26c67218f.bindPopup(popup_455f41badf2e1c11a148ee047b6d8738)
+        ;
+
+        
+    
+    
+                marker_cec69c09faf1011abef64ec26c67218f.setIcon(icon_68dd8a29bed8c53d2bb5aaa87f73f069);
+            
+    
+            var marker_99bc5016170c2c3763576e1a26f66684 = L.marker(
+                [24.852157, -107.387745],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_fab32ac660693c31ed7475ea351fae8d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6fb2f23c40cbf3b01fd6b6e8c05dfff3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9343fff649880897d5a107d351309452 = $(`<div id="html_9343fff649880897d5a107d351309452" style="width: 100.0%; height: 100.0%;">Tienda 37 (Nivel: B)</div>`)[0];
+                popup_6fb2f23c40cbf3b01fd6b6e8c05dfff3.setContent(html_9343fff649880897d5a107d351309452);
+            
+        
+
+        marker_99bc5016170c2c3763576e1a26f66684.bindPopup(popup_6fb2f23c40cbf3b01fd6b6e8c05dfff3)
+        ;
+
+        
+    
+    
+                marker_99bc5016170c2c3763576e1a26f66684.setIcon(icon_fab32ac660693c31ed7475ea351fae8d);
+            
+    
+            var marker_8bbb8578ed43e44c3071f03b6e2318d9 = L.marker(
+                [24.854193, -107.401241],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_f092be2df3c03420a7683d42f3fdf3a4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f3fea9b455a5df8b34228cf4f03f79ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ba28abc02d3a45aa8845ad05a2dc8f80 = $(`<div id="html_ba28abc02d3a45aa8845ad05a2dc8f80" style="width: 100.0%; height: 100.0%;">Tienda 38 (Nivel: B)</div>`)[0];
+                popup_f3fea9b455a5df8b34228cf4f03f79ac.setContent(html_ba28abc02d3a45aa8845ad05a2dc8f80);
+            
+        
+
+        marker_8bbb8578ed43e44c3071f03b6e2318d9.bindPopup(popup_f3fea9b455a5df8b34228cf4f03f79ac)
+        ;
+
+        
+    
+    
+                marker_8bbb8578ed43e44c3071f03b6e2318d9.setIcon(icon_f092be2df3c03420a7683d42f3fdf3a4);
+            
+    
+            var marker_1ce1d2dd9d94efd1264e0b246fe08a09 = L.marker(
+                [24.804547, -107.414492],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_a08517da821d58c98b7b1197b2ed788f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1c538e5f1136780fc2a1690035ac31b5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f26e91967d7df95298c615561f494fbe = $(`<div id="html_f26e91967d7df95298c615561f494fbe" style="width: 100.0%; height: 100.0%;">Tienda 39 (Nivel: B)</div>`)[0];
+                popup_1c538e5f1136780fc2a1690035ac31b5.setContent(html_f26e91967d7df95298c615561f494fbe);
+            
+        
+
+        marker_1ce1d2dd9d94efd1264e0b246fe08a09.bindPopup(popup_1c538e5f1136780fc2a1690035ac31b5)
+        ;
+
+        
+    
+    
+                marker_1ce1d2dd9d94efd1264e0b246fe08a09.setIcon(icon_a08517da821d58c98b7b1197b2ed788f);
+            
+    
+            var marker_5eb4a4b171ef8f5d390077d58e1668b6 = L.marker(
+                [24.705084, -107.478422],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_f11c3beffcb09e588fd0403219153637 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_75df164ea3f0c0acc5154bca930256d2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_11a9163f42abf20ac1c730f10620b9fe = $(`<div id="html_11a9163f42abf20ac1c730f10620b9fe" style="width: 100.0%; height: 100.0%;">Tienda 40 (Nivel: A)</div>`)[0];
+                popup_75df164ea3f0c0acc5154bca930256d2.setContent(html_11a9163f42abf20ac1c730f10620b9fe);
+            
+        
+
+        marker_5eb4a4b171ef8f5d390077d58e1668b6.bindPopup(popup_75df164ea3f0c0acc5154bca930256d2)
+        ;
+
+        
+    
+    
+                marker_5eb4a4b171ef8f5d390077d58e1668b6.setIcon(icon_f11c3beffcb09e588fd0403219153637);
+            
+    
+            var marker_ee05c5fca798fb577f3945f9c5dadd06 = L.marker(
+                [24.706286, -107.372718],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_3fb67328a4db73b40c43dc0fffda13a8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_eb129355ccb92bbb9602fcde47b800cb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_22711e564b7a8241e36eb1f0b71d9735 = $(`<div id="html_22711e564b7a8241e36eb1f0b71d9735" style="width: 100.0%; height: 100.0%;">Tienda 41 (Nivel: A)</div>`)[0];
+                popup_eb129355ccb92bbb9602fcde47b800cb.setContent(html_22711e564b7a8241e36eb1f0b71d9735);
+            
+        
+
+        marker_ee05c5fca798fb577f3945f9c5dadd06.bindPopup(popup_eb129355ccb92bbb9602fcde47b800cb)
+        ;
+
+        
+    
+    
+                marker_ee05c5fca798fb577f3945f9c5dadd06.setIcon(icon_3fb67328a4db73b40c43dc0fffda13a8);
+            
+    
+            var marker_38ad45b7b38a1d2a734ceb98d61700ab = L.marker(
+                [24.762871, -107.398286],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_d4337c17192bff7c1427fd5e14e95a64 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a31360eb7ab2e5574edfad2654805faf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6cf18f5e848504c1a9547374dd5bbc29 = $(`<div id="html_6cf18f5e848504c1a9547374dd5bbc29" style="width: 100.0%; height: 100.0%;">Tienda 42 (Nivel: A)</div>`)[0];
+                popup_a31360eb7ab2e5574edfad2654805faf.setContent(html_6cf18f5e848504c1a9547374dd5bbc29);
+            
+        
+
+        marker_38ad45b7b38a1d2a734ceb98d61700ab.bindPopup(popup_a31360eb7ab2e5574edfad2654805faf)
+        ;
+
+        
+    
+    
+                marker_38ad45b7b38a1d2a734ceb98d61700ab.setIcon(icon_d4337c17192bff7c1427fd5e14e95a64);
+            
+    
+            var marker_c9d8c8f8e7757a13225ef60f2e262eb2 = L.marker(
+                [24.881513, -107.450142],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_a65c6497f57bfe0f756a76284a4fe51e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ff1fc4f45bac6930fc00f838fb09ad9a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_100664b731f4012ba43e7d3b06902ebd = $(`<div id="html_100664b731f4012ba43e7d3b06902ebd" style="width: 100.0%; height: 100.0%;">Tienda 43 (Nivel: A)</div>`)[0];
+                popup_ff1fc4f45bac6930fc00f838fb09ad9a.setContent(html_100664b731f4012ba43e7d3b06902ebd);
+            
+        
+
+        marker_c9d8c8f8e7757a13225ef60f2e262eb2.bindPopup(popup_ff1fc4f45bac6930fc00f838fb09ad9a)
+        ;
+
+        
+    
+    
+                marker_c9d8c8f8e7757a13225ef60f2e262eb2.setIcon(icon_a65c6497f57bfe0f756a76284a4fe51e);
+            
+    
+            var marker_5d037895aa3f782464d7a0149e68d977 = L.marker(
+                [24.782077, -107.34889],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_4c3e4e24ea56bfa9b813a7171a4ccad5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4e34bc684f9ef5ce00ae3096d9592318 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4a31e98ad7cec9db61da7b8e348257a3 = $(`<div id="html_4a31e98ad7cec9db61da7b8e348257a3" style="width: 100.0%; height: 100.0%;">Tienda 44 (Nivel: B)</div>`)[0];
+                popup_4e34bc684f9ef5ce00ae3096d9592318.setContent(html_4a31e98ad7cec9db61da7b8e348257a3);
+            
+        
+
+        marker_5d037895aa3f782464d7a0149e68d977.bindPopup(popup_4e34bc684f9ef5ce00ae3096d9592318)
+        ;
+
+        
+    
+    
+                marker_5d037895aa3f782464d7a0149e68d977.setIcon(icon_4c3e4e24ea56bfa9b813a7171a4ccad5);
+            
+    
+            var marker_d71e36bd3bfa5f31b8f219986252db9a = L.marker(
+                [24.74576, -107.484604],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_636bea3331b2b2eb6d016f7eec3dced8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d8075859c6d1a97fba6ab11b2997cc27 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_599d2549001f2c31451bd729c7d7e609 = $(`<div id="html_599d2549001f2c31451bd729c7d7e609" style="width: 100.0%; height: 100.0%;">Tienda 45 (Nivel: B)</div>`)[0];
+                popup_d8075859c6d1a97fba6ab11b2997cc27.setContent(html_599d2549001f2c31451bd729c7d7e609);
+            
+        
+
+        marker_d71e36bd3bfa5f31b8f219986252db9a.bindPopup(popup_d8075859c6d1a97fba6ab11b2997cc27)
+        ;
+
+        
+    
+    
+                marker_d71e36bd3bfa5f31b8f219986252db9a.setIcon(icon_636bea3331b2b2eb6d016f7eec3dced8);
+            
+    
+            var marker_d7d48c2efbfe5468017369e985fe85ed = L.marker(
+                [24.75795, -107.467756],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_86ce0afce887947ea968e35fbc5c11fa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d65c33c84dceef09e812b1dd249fed43 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2b24b128c8926dc07d81b4a24956d411 = $(`<div id="html_2b24b128c8926dc07d81b4a24956d411" style="width: 100.0%; height: 100.0%;">Tienda 46 (Nivel: B)</div>`)[0];
+                popup_d65c33c84dceef09e812b1dd249fed43.setContent(html_2b24b128c8926dc07d81b4a24956d411);
+            
+        
+
+        marker_d7d48c2efbfe5468017369e985fe85ed.bindPopup(popup_d65c33c84dceef09e812b1dd249fed43)
+        ;
+
+        
+    
+    
+                marker_d7d48c2efbfe5468017369e985fe85ed.setIcon(icon_86ce0afce887947ea968e35fbc5c11fa);
+            
+    
+            var marker_07b8767497ea0d44cb68195ff1acf2e2 = L.marker(
+                [24.88594, -107.338376],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_9c574ed40eb302bd2a47c58cceeb0b80 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0bd8e5ecb3d3f24a24ec959b604ea01f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b5d22e96ba48556197281efdc55075d = $(`<div id="html_1b5d22e96ba48556197281efdc55075d" style="width: 100.0%; height: 100.0%;">Tienda 47 (Nivel: C)</div>`)[0];
+                popup_0bd8e5ecb3d3f24a24ec959b604ea01f.setContent(html_1b5d22e96ba48556197281efdc55075d);
+            
+        
+
+        marker_07b8767497ea0d44cb68195ff1acf2e2.bindPopup(popup_0bd8e5ecb3d3f24a24ec959b604ea01f)
+        ;
+
+        
+    
+    
+                marker_07b8767497ea0d44cb68195ff1acf2e2.setIcon(icon_9c574ed40eb302bd2a47c58cceeb0b80);
+            
+    
+            var marker_9bf7bbc227e291212b64a4b95b153da6 = L.marker(
+                [24.826681, -107.325708],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_b9bbd099dba52be00278b2e7ec82d0d1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1e6fc0be76f4100c745608137a64cbd7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c7fa66c14a9fb9f356372f8e863cd968 = $(`<div id="html_c7fa66c14a9fb9f356372f8e863cd968" style="width: 100.0%; height: 100.0%;">Tienda 48 (Nivel: C)</div>`)[0];
+                popup_1e6fc0be76f4100c745608137a64cbd7.setContent(html_c7fa66c14a9fb9f356372f8e863cd968);
+            
+        
+
+        marker_9bf7bbc227e291212b64a4b95b153da6.bindPopup(popup_1e6fc0be76f4100c745608137a64cbd7)
+        ;
+
+        
+    
+    
+                marker_9bf7bbc227e291212b64a4b95b153da6.setIcon(icon_b9bbd099dba52be00278b2e7ec82d0d1);
+            
+    
+            var marker_566cc0d1fe737862682b7ec5d83503bf = L.marker(
+                [24.860734, -107.462686],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_428029b184d37a0bc56b659da9716cad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_99f83c146a2dffd4c215cc8d1d4326a2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4206251aa428bea0615486a4cee7ab4a = $(`<div id="html_4206251aa428bea0615486a4cee7ab4a" style="width: 100.0%; height: 100.0%;">Tienda 49 (Nivel: C)</div>`)[0];
+                popup_99f83c146a2dffd4c215cc8d1d4326a2.setContent(html_4206251aa428bea0615486a4cee7ab4a);
+            
+        
+
+        marker_566cc0d1fe737862682b7ec5d83503bf.bindPopup(popup_99f83c146a2dffd4c215cc8d1d4326a2)
+        ;
+
+        
+    
+    
+                marker_566cc0d1fe737862682b7ec5d83503bf.setIcon(icon_428029b184d37a0bc56b659da9716cad);
+            
+    
+            var marker_d79d8552525b49c3e32400cd436becad = L.marker(
+                [24.878512, -107.392132],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_d4609e10ee4fe0e7e786cd7a0e50f955 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_22dc087f0b9391fff3fde30a004f84ed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_909553a0f6fe7b5fac0c0d74f84ab5b6 = $(`<div id="html_909553a0f6fe7b5fac0c0d74f84ab5b6" style="width: 100.0%; height: 100.0%;">Tienda 50 (Nivel: B)</div>`)[0];
+                popup_22dc087f0b9391fff3fde30a004f84ed.setContent(html_909553a0f6fe7b5fac0c0d74f84ab5b6);
+            
+        
+
+        marker_d79d8552525b49c3e32400cd436becad.bindPopup(popup_22dc087f0b9391fff3fde30a004f84ed)
+        ;
+
+        
+    
+    
+                marker_d79d8552525b49c3e32400cd436becad.setIcon(icon_d4609e10ee4fe0e7e786cd7a0e50f955);
+            
+    
+            var marker_2f427c3190b9e479f7146cb00b3aaf0a = L.marker(
+                [24.861488, -107.320782],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_bf95a7f67cefe80e3898d14248b8cc92 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c448711cbb6b1a5494e1cbb68f0719ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_67072fa0918ba8ed9d3e68fbf748d759 = $(`<div id="html_67072fa0918ba8ed9d3e68fbf748d759" style="width: 100.0%; height: 100.0%;">Tienda 51 (Nivel: B)</div>`)[0];
+                popup_c448711cbb6b1a5494e1cbb68f0719ea.setContent(html_67072fa0918ba8ed9d3e68fbf748d759);
+            
+        
+
+        marker_2f427c3190b9e479f7146cb00b3aaf0a.bindPopup(popup_c448711cbb6b1a5494e1cbb68f0719ea)
+        ;
+
+        
+    
+    
+                marker_2f427c3190b9e479f7146cb00b3aaf0a.setIcon(icon_bf95a7f67cefe80e3898d14248b8cc92);
+            
+    
+            var marker_8bd2d306d9fa3e1946600cb984224e34 = L.marker(
+                [24.763601, -107.47799],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_101d4e6aaf0ccf6a2f425e800673a719 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_906a3e54e664f31b01d2773f5e0e73c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ae2b3895056edd0d1a16b6157d17beb0 = $(`<div id="html_ae2b3895056edd0d1a16b6157d17beb0" style="width: 100.0%; height: 100.0%;">Tienda 52 (Nivel: B)</div>`)[0];
+                popup_906a3e54e664f31b01d2773f5e0e73c3.setContent(html_ae2b3895056edd0d1a16b6157d17beb0);
+            
+        
+
+        marker_8bd2d306d9fa3e1946600cb984224e34.bindPopup(popup_906a3e54e664f31b01d2773f5e0e73c3)
+        ;
+
+        
+    
+    
+                marker_8bd2d306d9fa3e1946600cb984224e34.setIcon(icon_101d4e6aaf0ccf6a2f425e800673a719);
+            
+    
+            var marker_60878e99817d3f824f30751b8649a598 = L.marker(
+                [24.745587, -107.414578],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_2a9c2c4a4b2149dcb79ba37aca0a3849 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_215418407c83944272955c1f28f9999a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4d15e6e6f80327f911be28f379403b65 = $(`<div id="html_4d15e6e6f80327f911be28f379403b65" style="width: 100.0%; height: 100.0%;">Tienda 53 (Nivel: A)</div>`)[0];
+                popup_215418407c83944272955c1f28f9999a.setContent(html_4d15e6e6f80327f911be28f379403b65);
+            
+        
+
+        marker_60878e99817d3f824f30751b8649a598.bindPopup(popup_215418407c83944272955c1f28f9999a)
+        ;
+
+        
+    
+    
+                marker_60878e99817d3f824f30751b8649a598.setIcon(icon_2a9c2c4a4b2149dcb79ba37aca0a3849);
+            
+    
+            var marker_0956134e4383591c453966b3838ef69c = L.marker(
+                [24.863603, -107.327854],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_2bea0f2388c6e50ea887be8eeb41e3e3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4d5e1f3f56949cb8cb956b50750a337d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_28a67ee5a2abd73fa7d1dd68f61046c4 = $(`<div id="html_28a67ee5a2abd73fa7d1dd68f61046c4" style="width: 100.0%; height: 100.0%;">Tienda 54 (Nivel: B)</div>`)[0];
+                popup_4d5e1f3f56949cb8cb956b50750a337d.setContent(html_28a67ee5a2abd73fa7d1dd68f61046c4);
+            
+        
+
+        marker_0956134e4383591c453966b3838ef69c.bindPopup(popup_4d5e1f3f56949cb8cb956b50750a337d)
+        ;
+
+        
+    
+    
+                marker_0956134e4383591c453966b3838ef69c.setIcon(icon_2bea0f2388c6e50ea887be8eeb41e3e3);
+            
+    
+            var marker_16350b63da7b68bef56b755b305a9fb8 = L.marker(
+                [24.70139, -107.397851],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_792309760318ab7e8552a61bda976d4a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dfbccfc3f001d5e17ad27e100d304779 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_77c81325e8d6f5796a3c961d15ddb68e = $(`<div id="html_77c81325e8d6f5796a3c961d15ddb68e" style="width: 100.0%; height: 100.0%;">Tienda 55 (Nivel: C)</div>`)[0];
+                popup_dfbccfc3f001d5e17ad27e100d304779.setContent(html_77c81325e8d6f5796a3c961d15ddb68e);
+            
+        
+
+        marker_16350b63da7b68bef56b755b305a9fb8.bindPopup(popup_dfbccfc3f001d5e17ad27e100d304779)
+        ;
+
+        
+    
+    
+                marker_16350b63da7b68bef56b755b305a9fb8.setIcon(icon_792309760318ab7e8552a61bda976d4a);
+            
+    
+            var marker_c93644bda45405d213824e8297d03e6c = L.marker(
+                [24.783482, -107.455578],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_8ef4ae5db6ee63072d72a1269ae767e5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c837228a8c9ebafe129c171122a03f01 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8a20986ccd25a940ca727881d5de7426 = $(`<div id="html_8a20986ccd25a940ca727881d5de7426" style="width: 100.0%; height: 100.0%;">Tienda 56 (Nivel: C)</div>`)[0];
+                popup_c837228a8c9ebafe129c171122a03f01.setContent(html_8a20986ccd25a940ca727881d5de7426);
+            
+        
+
+        marker_c93644bda45405d213824e8297d03e6c.bindPopup(popup_c837228a8c9ebafe129c171122a03f01)
+        ;
+
+        
+    
+    
+                marker_c93644bda45405d213824e8297d03e6c.setIcon(icon_8ef4ae5db6ee63072d72a1269ae767e5);
+            
+    
+            var marker_7bfc32a15f4a2de6cfcfa45e223d854a = L.marker(
+                [24.723973, -107.432477],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_179fc3455c4bc257438f23e7e7e1354f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bb06f6c5bb31dcaf6a596d38a6e899ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d1addf34708821f9b9c744124b329441 = $(`<div id="html_d1addf34708821f9b9c744124b329441" style="width: 100.0%; height: 100.0%;">Tienda 57 (Nivel: C)</div>`)[0];
+                popup_bb06f6c5bb31dcaf6a596d38a6e899ec.setContent(html_d1addf34708821f9b9c744124b329441);
+            
+        
+
+        marker_7bfc32a15f4a2de6cfcfa45e223d854a.bindPopup(popup_bb06f6c5bb31dcaf6a596d38a6e899ec)
+        ;
+
+        
+    
+    
+                marker_7bfc32a15f4a2de6cfcfa45e223d854a.setIcon(icon_179fc3455c4bc257438f23e7e7e1354f);
+            
+    
+            var marker_5f356f3a97137443a12effa613b7fff5 = L.marker(
+                [24.888582, -107.435359],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_e3ce1eb3bdb8388ff5222ebb07acb874 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_316d33458b20686279ca55354ab3451b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b39e4d7eb4abc822366c23a520b09874 = $(`<div id="html_b39e4d7eb4abc822366c23a520b09874" style="width: 100.0%; height: 100.0%;">Tienda 58 (Nivel: A)</div>`)[0];
+                popup_316d33458b20686279ca55354ab3451b.setContent(html_b39e4d7eb4abc822366c23a520b09874);
+            
+        
+
+        marker_5f356f3a97137443a12effa613b7fff5.bindPopup(popup_316d33458b20686279ca55354ab3451b)
+        ;
+
+        
+    
+    
+                marker_5f356f3a97137443a12effa613b7fff5.setIcon(icon_e3ce1eb3bdb8388ff5222ebb07acb874);
+            
+    
+            var marker_5849c4c39a560afe3edfb962cea03ac6 = L.marker(
+                [24.803758, -107.359396],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_c012cdcfcb6467a71b24e2dadd0a1d68 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_359eea18e6af53c1b5942cc30e4d24c2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3d46b6e47a4ef331b92e8813d3f853f0 = $(`<div id="html_3d46b6e47a4ef331b92e8813d3f853f0" style="width: 100.0%; height: 100.0%;">Tienda 59 (Nivel: C)</div>`)[0];
+                popup_359eea18e6af53c1b5942cc30e4d24c2.setContent(html_3d46b6e47a4ef331b92e8813d3f853f0);
+            
+        
+
+        marker_5849c4c39a560afe3edfb962cea03ac6.bindPopup(popup_359eea18e6af53c1b5942cc30e4d24c2)
+        ;
+
+        
+    
+    
+                marker_5849c4c39a560afe3edfb962cea03ac6.setIcon(icon_c012cdcfcb6467a71b24e2dadd0a1d68);
+            
+    
+            var marker_0dfbd0894a9e9950912e762ecfb018a3 = L.marker(
+                [24.772726, -107.305644],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_c3d2ace2802f0fbfcd7448f62c2c2ceb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c90b8f57c96cf9de59209f45efa5ba01 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1ab9dc2e565054bc8177ec3bba4ee6c1 = $(`<div id="html_1ab9dc2e565054bc8177ec3bba4ee6c1" style="width: 100.0%; height: 100.0%;">Tienda 60 (Nivel: A)</div>`)[0];
+                popup_c90b8f57c96cf9de59209f45efa5ba01.setContent(html_1ab9dc2e565054bc8177ec3bba4ee6c1);
+            
+        
+
+        marker_0dfbd0894a9e9950912e762ecfb018a3.bindPopup(popup_c90b8f57c96cf9de59209f45efa5ba01)
+        ;
+
+        
+    
+    
+                marker_0dfbd0894a9e9950912e762ecfb018a3.setIcon(icon_c3d2ace2802f0fbfcd7448f62c2c2ceb);
+            
+    
+            var marker_ef5ed08bb6420a8fbbb867bb93d35a40 = L.marker(
+                [24.892489, -107.449644],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_bf96c23ff44cf978a310e4b5c8c25844 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d89151c4fb5dce915c0c5a9be9b3f404 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_df7e76fce78c2895f321df15616f4a25 = $(`<div id="html_df7e76fce78c2895f321df15616f4a25" style="width: 100.0%; height: 100.0%;">Tienda 61 (Nivel: B)</div>`)[0];
+                popup_d89151c4fb5dce915c0c5a9be9b3f404.setContent(html_df7e76fce78c2895f321df15616f4a25);
+            
+        
+
+        marker_ef5ed08bb6420a8fbbb867bb93d35a40.bindPopup(popup_d89151c4fb5dce915c0c5a9be9b3f404)
+        ;
+
+        
+    
+    
+                marker_ef5ed08bb6420a8fbbb867bb93d35a40.setIcon(icon_bf96c23ff44cf978a310e4b5c8c25844);
+            
+    
+            var marker_8a6ea8463a61b05223ebbc7ae38fbaca = L.marker(
+                [24.79945, -107.439824],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_0badd223b26f1d5ed1fb5e101a089228 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_572cccd67fa02edb0d94387eb1336bf0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_93b8d78d3430ba8b996dc7faf0149486 = $(`<div id="html_93b8d78d3430ba8b996dc7faf0149486" style="width: 100.0%; height: 100.0%;">Tienda 62 (Nivel: B)</div>`)[0];
+                popup_572cccd67fa02edb0d94387eb1336bf0.setContent(html_93b8d78d3430ba8b996dc7faf0149486);
+            
+        
+
+        marker_8a6ea8463a61b05223ebbc7ae38fbaca.bindPopup(popup_572cccd67fa02edb0d94387eb1336bf0)
+        ;
+
+        
+    
+    
+                marker_8a6ea8463a61b05223ebbc7ae38fbaca.setIcon(icon_0badd223b26f1d5ed1fb5e101a089228);
+            
+    
+            var marker_fd188c80a65233a63f70e080917f84f9 = L.marker(
+                [24.756968, -107.492623],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_c8e67d52c99c7e2cf6ea62ee10da19a5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f0d2fb31a4ed60f5c2db414a46700a1a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d1a80a14547509c2e6a5dc521fcc36c8 = $(`<div id="html_d1a80a14547509c2e6a5dc521fcc36c8" style="width: 100.0%; height: 100.0%;">Tienda 63 (Nivel: A)</div>`)[0];
+                popup_f0d2fb31a4ed60f5c2db414a46700a1a.setContent(html_d1a80a14547509c2e6a5dc521fcc36c8);
+            
+        
+
+        marker_fd188c80a65233a63f70e080917f84f9.bindPopup(popup_f0d2fb31a4ed60f5c2db414a46700a1a)
+        ;
+
+        
+    
+    
+                marker_fd188c80a65233a63f70e080917f84f9.setIcon(icon_c8e67d52c99c7e2cf6ea62ee10da19a5);
+            
+    
+            var marker_b8617838575385bd19238c636779623a = L.marker(
+                [24.821913, -107.399464],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_9b1aab4963d03c4fb1b54484722fd0b3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1b6dd543957170ae377c537c94196c25 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_40d7f229ad0dd47fd5aa632a7f701c42 = $(`<div id="html_40d7f229ad0dd47fd5aa632a7f701c42" style="width: 100.0%; height: 100.0%;">Tienda 64 (Nivel: C)</div>`)[0];
+                popup_1b6dd543957170ae377c537c94196c25.setContent(html_40d7f229ad0dd47fd5aa632a7f701c42);
+            
+        
+
+        marker_b8617838575385bd19238c636779623a.bindPopup(popup_1b6dd543957170ae377c537c94196c25)
+        ;
+
+        
+    
+    
+                marker_b8617838575385bd19238c636779623a.setIcon(icon_9b1aab4963d03c4fb1b54484722fd0b3);
+            
+    
+            var marker_9894b3417d5703802b2194e71f5e7580 = L.marker(
+                [24.710296, -107.444271],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_6f5316d572cf66d3598dcda02a2e644b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_823cdbf33e1771601c34d1a0f879d089 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_75e7039fa4c7ff1070dab0af29cf2a9e = $(`<div id="html_75e7039fa4c7ff1070dab0af29cf2a9e" style="width: 100.0%; height: 100.0%;">Tienda 65 (Nivel: C)</div>`)[0];
+                popup_823cdbf33e1771601c34d1a0f879d089.setContent(html_75e7039fa4c7ff1070dab0af29cf2a9e);
+            
+        
+
+        marker_9894b3417d5703802b2194e71f5e7580.bindPopup(popup_823cdbf33e1771601c34d1a0f879d089)
+        ;
+
+        
+    
+    
+                marker_9894b3417d5703802b2194e71f5e7580.setIcon(icon_6f5316d572cf66d3598dcda02a2e644b);
+            
+    
+            var marker_8d3c886840671790bbceef65a3b8d20c = L.marker(
+                [24.881653, -107.452088],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_2ef8e27601f0b218b24ecb6c24ae8653 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4f47b53a5259eda85f027d386a78250c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_057c41a794507203d2f3b53e7797adfc = $(`<div id="html_057c41a794507203d2f3b53e7797adfc" style="width: 100.0%; height: 100.0%;">Tienda 66 (Nivel: C)</div>`)[0];
+                popup_4f47b53a5259eda85f027d386a78250c.setContent(html_057c41a794507203d2f3b53e7797adfc);
+            
+        
+
+        marker_8d3c886840671790bbceef65a3b8d20c.bindPopup(popup_4f47b53a5259eda85f027d386a78250c)
+        ;
+
+        
+    
+    
+                marker_8d3c886840671790bbceef65a3b8d20c.setIcon(icon_2ef8e27601f0b218b24ecb6c24ae8653);
+            
+    
+            var marker_f1e7ac4bc774e1ee8a4b09fd5db530b4 = L.marker(
+                [24.728979, -107.402109],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_2ead1ffb0943bdb1d0a1371c7e3784f4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4fdcb5dc566c5a85a85185be5e0cac14 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_49879cdcde9e6fdac6c2f2da1abe4224 = $(`<div id="html_49879cdcde9e6fdac6c2f2da1abe4224" style="width: 100.0%; height: 100.0%;">Tienda 67 (Nivel: A)</div>`)[0];
+                popup_4fdcb5dc566c5a85a85185be5e0cac14.setContent(html_49879cdcde9e6fdac6c2f2da1abe4224);
+            
+        
+
+        marker_f1e7ac4bc774e1ee8a4b09fd5db530b4.bindPopup(popup_4fdcb5dc566c5a85a85185be5e0cac14)
+        ;
+
+        
+    
+    
+                marker_f1e7ac4bc774e1ee8a4b09fd5db530b4.setIcon(icon_2ead1ffb0943bdb1d0a1371c7e3784f4);
+            
+    
+            var marker_006be7b72d0c92aede7453cb9dc85450 = L.marker(
+                [24.89713, -107.451589],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_7e77139410eeea61ddb663530005f1e6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_23054194b415e32bf35677efc60a4509 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a5c12358b7087504e6c195522bbc1dfb = $(`<div id="html_a5c12358b7087504e6c195522bbc1dfb" style="width: 100.0%; height: 100.0%;">Tienda 68 (Nivel: C)</div>`)[0];
+                popup_23054194b415e32bf35677efc60a4509.setContent(html_a5c12358b7087504e6c195522bbc1dfb);
+            
+        
+
+        marker_006be7b72d0c92aede7453cb9dc85450.bindPopup(popup_23054194b415e32bf35677efc60a4509)
+        ;
+
+        
+    
+    
+                marker_006be7b72d0c92aede7453cb9dc85450.setIcon(icon_7e77139410eeea61ddb663530005f1e6);
+            
+    
+            var marker_134db4539c683102635d4db24f2f97f9 = L.marker(
+                [24.834427, -107.347676],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_c24885d2335a20a94edfccbcf9b60688 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b037715a518067ab8f9d795ff92fd65b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b189dce5a45d20efec7ee77e1e811798 = $(`<div id="html_b189dce5a45d20efec7ee77e1e811798" style="width: 100.0%; height: 100.0%;">Tienda 69 (Nivel: C)</div>`)[0];
+                popup_b037715a518067ab8f9d795ff92fd65b.setContent(html_b189dce5a45d20efec7ee77e1e811798);
+            
+        
+
+        marker_134db4539c683102635d4db24f2f97f9.bindPopup(popup_b037715a518067ab8f9d795ff92fd65b)
+        ;
+
+        
+    
+    
+                marker_134db4539c683102635d4db24f2f97f9.setIcon(icon_c24885d2335a20a94edfccbcf9b60688);
+            
+    
+            var marker_eeba0b62048cc700f2dbfacca8f4f720 = L.marker(
+                [24.747528, -107.354357],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_0c452712488f8c393b77dcc9d66051d5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ce0b56e203a3a88f6e3418d82c4e158c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_890c0f0cd7da4d7603f8ccaf59147bea = $(`<div id="html_890c0f0cd7da4d7603f8ccaf59147bea" style="width: 100.0%; height: 100.0%;">Tienda 70 (Nivel: B)</div>`)[0];
+                popup_ce0b56e203a3a88f6e3418d82c4e158c.setContent(html_890c0f0cd7da4d7603f8ccaf59147bea);
+            
+        
+
+        marker_eeba0b62048cc700f2dbfacca8f4f720.bindPopup(popup_ce0b56e203a3a88f6e3418d82c4e158c)
+        ;
+
+        
+    
+    
+                marker_eeba0b62048cc700f2dbfacca8f4f720.setIcon(icon_0c452712488f8c393b77dcc9d66051d5);
+            
+    
+            var marker_76adadac0e70fdea7c8656e3b327cb37 = L.marker(
+                [24.773557, -107.373539],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_97dc71c3708b8a7390cb94aca7b7af0b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ec022d2ce2d072f1fc287737373d2f20 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3842927d304e9a049e27f4d82996a7f2 = $(`<div id="html_3842927d304e9a049e27f4d82996a7f2" style="width: 100.0%; height: 100.0%;">Tienda 71 (Nivel: C)</div>`)[0];
+                popup_ec022d2ce2d072f1fc287737373d2f20.setContent(html_3842927d304e9a049e27f4d82996a7f2);
+            
+        
+
+        marker_76adadac0e70fdea7c8656e3b327cb37.bindPopup(popup_ec022d2ce2d072f1fc287737373d2f20)
+        ;
+
+        
+    
+    
+                marker_76adadac0e70fdea7c8656e3b327cb37.setIcon(icon_97dc71c3708b8a7390cb94aca7b7af0b);
+            
+    
+            var marker_a2ec670a764ddd1e70d40f4ea7916821 = L.marker(
+                [24.826706, -107.392845],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_bc80f5ebaf90c60e91acd749051dc6a7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f7f493f21313df953c9fe68d892db534 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3345715f49305a3b4541921a3310dd08 = $(`<div id="html_3345715f49305a3b4541921a3310dd08" style="width: 100.0%; height: 100.0%;">Tienda 72 (Nivel: C)</div>`)[0];
+                popup_f7f493f21313df953c9fe68d892db534.setContent(html_3345715f49305a3b4541921a3310dd08);
+            
+        
+
+        marker_a2ec670a764ddd1e70d40f4ea7916821.bindPopup(popup_f7f493f21313df953c9fe68d892db534)
+        ;
+
+        
+    
+    
+                marker_a2ec670a764ddd1e70d40f4ea7916821.setIcon(icon_bc80f5ebaf90c60e91acd749051dc6a7);
+            
+    
+            var marker_9f3491f1e1e3bf1caa0d3cd08abbdfa6 = L.marker(
+                [24.718058, -107.33294],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_5f7a4d294b2a2b68d66413221d276322 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b9415e81f06f25546188bd8a92ea6f4b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3df6ecf7945f18ab3297c2f0b9f1d4b7 = $(`<div id="html_3df6ecf7945f18ab3297c2f0b9f1d4b7" style="width: 100.0%; height: 100.0%;">Tienda 73 (Nivel: C)</div>`)[0];
+                popup_b9415e81f06f25546188bd8a92ea6f4b.setContent(html_3df6ecf7945f18ab3297c2f0b9f1d4b7);
+            
+        
+
+        marker_9f3491f1e1e3bf1caa0d3cd08abbdfa6.bindPopup(popup_b9415e81f06f25546188bd8a92ea6f4b)
+        ;
+
+        
+    
+    
+                marker_9f3491f1e1e3bf1caa0d3cd08abbdfa6.setIcon(icon_5f7a4d294b2a2b68d66413221d276322);
+            
+    
+            var marker_7ff449e1ca70359e875410bf7fe8cd11 = L.marker(
+                [24.764156, -107.462696],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_844f5fb2d2d8d6b4aa29737ad18e9751 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cbaae88b0c20a895bb5d5e6034d63b59 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4b69ff40c29056fb33f01d33249b9ac9 = $(`<div id="html_4b69ff40c29056fb33f01d33249b9ac9" style="width: 100.0%; height: 100.0%;">Tienda 74 (Nivel: B)</div>`)[0];
+                popup_cbaae88b0c20a895bb5d5e6034d63b59.setContent(html_4b69ff40c29056fb33f01d33249b9ac9);
+            
+        
+
+        marker_7ff449e1ca70359e875410bf7fe8cd11.bindPopup(popup_cbaae88b0c20a895bb5d5e6034d63b59)
+        ;
+
+        
+    
+    
+                marker_7ff449e1ca70359e875410bf7fe8cd11.setIcon(icon_844f5fb2d2d8d6b4aa29737ad18e9751);
+            
+    
+            var marker_70dadff9d63488526a58e8de18be9386 = L.marker(
+                [24.708155, -107.381821],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_2fa86f628030717ad6a16881613e47c7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_995a37d6b9b844e8ac7fd830c212a2eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ec39c5998b7c1813815f77bdb80ffd0d = $(`<div id="html_ec39c5998b7c1813815f77bdb80ffd0d" style="width: 100.0%; height: 100.0%;">Tienda 75 (Nivel: B)</div>`)[0];
+                popup_995a37d6b9b844e8ac7fd830c212a2eb.setContent(html_ec39c5998b7c1813815f77bdb80ffd0d);
+            
+        
+
+        marker_70dadff9d63488526a58e8de18be9386.bindPopup(popup_995a37d6b9b844e8ac7fd830c212a2eb)
+        ;
+
+        
+    
+    
+                marker_70dadff9d63488526a58e8de18be9386.setIcon(icon_2fa86f628030717ad6a16881613e47c7);
+            
+    
+            var marker_bc70a2b8421fc9011d639d89471c5b97 = L.marker(
+                [24.835513, -107.496682],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_c86588d532845d43eb8060dc40aebf94 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ec0cb307c963747970a3afd61e516a2c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_02386734dc8c8b08b47e173b2ad8d082 = $(`<div id="html_02386734dc8c8b08b47e173b2ad8d082" style="width: 100.0%; height: 100.0%;">Tienda 76 (Nivel: A)</div>`)[0];
+                popup_ec0cb307c963747970a3afd61e516a2c.setContent(html_02386734dc8c8b08b47e173b2ad8d082);
+            
+        
+
+        marker_bc70a2b8421fc9011d639d89471c5b97.bindPopup(popup_ec0cb307c963747970a3afd61e516a2c)
+        ;
+
+        
+    
+    
+                marker_bc70a2b8421fc9011d639d89471c5b97.setIcon(icon_c86588d532845d43eb8060dc40aebf94);
+            
+    
+            var marker_9573839a62fefbc1083c03a00ea2bd9b = L.marker(
+                [24.802419, -107.454701],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_3105bfb0ab2ff171d226a1732923a681 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_49682829b25c624ec57ed47b5899d5b6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_76036cfab00ebad639710de58ad057e2 = $(`<div id="html_76036cfab00ebad639710de58ad057e2" style="width: 100.0%; height: 100.0%;">Tienda 77 (Nivel: A)</div>`)[0];
+                popup_49682829b25c624ec57ed47b5899d5b6.setContent(html_76036cfab00ebad639710de58ad057e2);
+            
+        
+
+        marker_9573839a62fefbc1083c03a00ea2bd9b.bindPopup(popup_49682829b25c624ec57ed47b5899d5b6)
+        ;
+
+        
+    
+    
+                marker_9573839a62fefbc1083c03a00ea2bd9b.setIcon(icon_3105bfb0ab2ff171d226a1732923a681);
+            
+    
+            var marker_1daf229572c8ff828460db6bffe72e44 = L.marker(
+                [24.829035, -107.465127],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_855aa1210548947c470f551050a6f75a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f2f29b31bfe1f01975557d492266d220 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_16bfa078cca72af8370c6aafbf0e7ad3 = $(`<div id="html_16bfa078cca72af8370c6aafbf0e7ad3" style="width: 100.0%; height: 100.0%;">Tienda 78 (Nivel: A)</div>`)[0];
+                popup_f2f29b31bfe1f01975557d492266d220.setContent(html_16bfa078cca72af8370c6aafbf0e7ad3);
+            
+        
+
+        marker_1daf229572c8ff828460db6bffe72e44.bindPopup(popup_f2f29b31bfe1f01975557d492266d220)
+        ;
+
+        
+    
+    
+                marker_1daf229572c8ff828460db6bffe72e44.setIcon(icon_855aa1210548947c470f551050a6f75a);
+            
+    
+            var marker_e5b7594fbbdd02af92b71cb9afb34131 = L.marker(
+                [24.838188, -107.422653],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_d5374fbda9b54660804f234650c29889 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aae661445cf14b85d2fb90cd4cae228b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_02ab8fe901ed938c213889c3e579ae8b = $(`<div id="html_02ab8fe901ed938c213889c3e579ae8b" style="width: 100.0%; height: 100.0%;">Tienda 79 (Nivel: A)</div>`)[0];
+                popup_aae661445cf14b85d2fb90cd4cae228b.setContent(html_02ab8fe901ed938c213889c3e579ae8b);
+            
+        
+
+        marker_e5b7594fbbdd02af92b71cb9afb34131.bindPopup(popup_aae661445cf14b85d2fb90cd4cae228b)
+        ;
+
+        
+    
+    
+                marker_e5b7594fbbdd02af92b71cb9afb34131.setIcon(icon_d5374fbda9b54660804f234650c29889);
+            
+    
+            var marker_a0d85982c80c898389eff251904ce40c = L.marker(
+                [24.887346, -107.472496],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_daaad548066e7bb5cf79985672c3ab99 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_48232a67a163608c13379f0e023f538e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ad7ca79286a4ae9907945fc8106c986a = $(`<div id="html_ad7ca79286a4ae9907945fc8106c986a" style="width: 100.0%; height: 100.0%;">Tienda 80 (Nivel: C)</div>`)[0];
+                popup_48232a67a163608c13379f0e023f538e.setContent(html_ad7ca79286a4ae9907945fc8106c986a);
+            
+        
+
+        marker_a0d85982c80c898389eff251904ce40c.bindPopup(popup_48232a67a163608c13379f0e023f538e)
+        ;
+
+        
+    
+    
+                marker_a0d85982c80c898389eff251904ce40c.setIcon(icon_daaad548066e7bb5cf79985672c3ab99);
+            
+    
+            var marker_c6ab1cc9fa0c033aed9ce1ff228a5ce5 = L.marker(
+                [24.768213, -107.477305],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_a17586613f5ac47a09160300a6a7f801 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_789a0cb7f05592fd4dbff09d4dfd7038 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8f5a68c96fda7a29a196e009370a9881 = $(`<div id="html_8f5a68c96fda7a29a196e009370a9881" style="width: 100.0%; height: 100.0%;">Tienda 81 (Nivel: A)</div>`)[0];
+                popup_789a0cb7f05592fd4dbff09d4dfd7038.setContent(html_8f5a68c96fda7a29a196e009370a9881);
+            
+        
+
+        marker_c6ab1cc9fa0c033aed9ce1ff228a5ce5.bindPopup(popup_789a0cb7f05592fd4dbff09d4dfd7038)
+        ;
+
+        
+    
+    
+                marker_c6ab1cc9fa0c033aed9ce1ff228a5ce5.setIcon(icon_a17586613f5ac47a09160300a6a7f801);
+            
+    
+            var marker_56eb4d4c4e7f4f2ad4a6c650c7fe0c00 = L.marker(
+                [24.884939, -107.324532],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_2cb2bb182ab803944e23aef23316d2a1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ca0213add3c78adb450fcc52e4663a5f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_13234de980991c1f1406843f3e432b58 = $(`<div id="html_13234de980991c1f1406843f3e432b58" style="width: 100.0%; height: 100.0%;">Tienda 82 (Nivel: B)</div>`)[0];
+                popup_ca0213add3c78adb450fcc52e4663a5f.setContent(html_13234de980991c1f1406843f3e432b58);
+            
+        
+
+        marker_56eb4d4c4e7f4f2ad4a6c650c7fe0c00.bindPopup(popup_ca0213add3c78adb450fcc52e4663a5f)
+        ;
+
+        
+    
+    
+                marker_56eb4d4c4e7f4f2ad4a6c650c7fe0c00.setIcon(icon_2cb2bb182ab803944e23aef23316d2a1);
+            
+    
+            var marker_5cd0a450fc37f543cb06ca607b97f350 = L.marker(
+                [24.751588, -107.368003],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_18cea9860937176d5f20d3529d935f40 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3290aa6c951bfc84ac82398c11acf38e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3caf3bf1d3fc539ba34948fd6bac60aa = $(`<div id="html_3caf3bf1d3fc539ba34948fd6bac60aa" style="width: 100.0%; height: 100.0%;">Tienda 83 (Nivel: A)</div>`)[0];
+                popup_3290aa6c951bfc84ac82398c11acf38e.setContent(html_3caf3bf1d3fc539ba34948fd6bac60aa);
+            
+        
+
+        marker_5cd0a450fc37f543cb06ca607b97f350.bindPopup(popup_3290aa6c951bfc84ac82398c11acf38e)
+        ;
+
+        
+    
+    
+                marker_5cd0a450fc37f543cb06ca607b97f350.setIcon(icon_18cea9860937176d5f20d3529d935f40);
+            
+    
+            var marker_7fd90ec23ec2270f1143207a9f2672cb = L.marker(
+                [24.863444, -107.38896],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_861eabaddce8a49533fdd78c85c0a56b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d2f6dafe5a274e2df63e95a2d2fa4229 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_90c2eceea1932676a11412409e81222f = $(`<div id="html_90c2eceea1932676a11412409e81222f" style="width: 100.0%; height: 100.0%;">Tienda 84 (Nivel: B)</div>`)[0];
+                popup_d2f6dafe5a274e2df63e95a2d2fa4229.setContent(html_90c2eceea1932676a11412409e81222f);
+            
+        
+
+        marker_7fd90ec23ec2270f1143207a9f2672cb.bindPopup(popup_d2f6dafe5a274e2df63e95a2d2fa4229)
+        ;
+
+        
+    
+    
+                marker_7fd90ec23ec2270f1143207a9f2672cb.setIcon(icon_861eabaddce8a49533fdd78c85c0a56b);
+            
+    
+            var marker_7853b14812a548d703b6794abc44c9fa = L.marker(
+                [24.80593, -107.45163],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_a6d30ab17f353c62397481c1e41670e6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6dce3658f108b2d716a006dd3212f9b3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4d8aeda133b19777529ef93ad073d70 = $(`<div id="html_d4d8aeda133b19777529ef93ad073d70" style="width: 100.0%; height: 100.0%;">Tienda 85 (Nivel: A)</div>`)[0];
+                popup_6dce3658f108b2d716a006dd3212f9b3.setContent(html_d4d8aeda133b19777529ef93ad073d70);
+            
+        
+
+        marker_7853b14812a548d703b6794abc44c9fa.bindPopup(popup_6dce3658f108b2d716a006dd3212f9b3)
+        ;
+
+        
+    
+    
+                marker_7853b14812a548d703b6794abc44c9fa.setIcon(icon_a6d30ab17f353c62397481c1e41670e6);
+            
+    
+            var marker_0d3c5c9dd62c2e909ce3afe13cb0d585 = L.marker(
+                [24.718621, -107.320557],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_db63a91d0e4649f087dedcfee5fb8cc1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e38b2a658896ef69a01df13b4bd058c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_543fa2347f5f339a7de753d6532a2a31 = $(`<div id="html_543fa2347f5f339a7de753d6532a2a31" style="width: 100.0%; height: 100.0%;">Tienda 86 (Nivel: C)</div>`)[0];
+                popup_e38b2a658896ef69a01df13b4bd058c5.setContent(html_543fa2347f5f339a7de753d6532a2a31);
+            
+        
+
+        marker_0d3c5c9dd62c2e909ce3afe13cb0d585.bindPopup(popup_e38b2a658896ef69a01df13b4bd058c5)
+        ;
+
+        
+    
+    
+                marker_0d3c5c9dd62c2e909ce3afe13cb0d585.setIcon(icon_db63a91d0e4649f087dedcfee5fb8cc1);
+            
+    
+            var marker_878b1afb55f634dc1316ed501dbbe633 = L.marker(
+                [24.880084, -107.37338],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_ec5bfa22942959dc77462d48f104c715 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c46fb49c4b97102115a558ea99841159 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_428f8571a2597e55fc52622931944e50 = $(`<div id="html_428f8571a2597e55fc52622931944e50" style="width: 100.0%; height: 100.0%;">Tienda 87 (Nivel: B)</div>`)[0];
+                popup_c46fb49c4b97102115a558ea99841159.setContent(html_428f8571a2597e55fc52622931944e50);
+            
+        
+
+        marker_878b1afb55f634dc1316ed501dbbe633.bindPopup(popup_c46fb49c4b97102115a558ea99841159)
+        ;
+
+        
+    
+    
+                marker_878b1afb55f634dc1316ed501dbbe633.setIcon(icon_ec5bfa22942959dc77462d48f104c715);
+            
+    
+            var marker_85f1744fb341ea7994415c7337f39ad0 = L.marker(
+                [24.767806, -107.430158],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_b2e98d45fd03504fff3d4dd0fe2aa6a5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9d137ec3ae297845948cf1b1d278b9ca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e986b1cf6769f54a453cfd6cdf855dd1 = $(`<div id="html_e986b1cf6769f54a453cfd6cdf855dd1" style="width: 100.0%; height: 100.0%;">Tienda 88 (Nivel: A)</div>`)[0];
+                popup_9d137ec3ae297845948cf1b1d278b9ca.setContent(html_e986b1cf6769f54a453cfd6cdf855dd1);
+            
+        
+
+        marker_85f1744fb341ea7994415c7337f39ad0.bindPopup(popup_9d137ec3ae297845948cf1b1d278b9ca)
+        ;
+
+        
+    
+    
+                marker_85f1744fb341ea7994415c7337f39ad0.setIcon(icon_b2e98d45fd03504fff3d4dd0fe2aa6a5);
+            
+    
+            var marker_57cf06206528e42e0f68146c305038ed = L.marker(
+                [24.845191, -107.320578],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_1d0bd5ca4d0d71e0519fad746d2d115f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e870e35d891adda73e864b9931aeaccc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_747832a1046284cda62149e01c0739da = $(`<div id="html_747832a1046284cda62149e01c0739da" style="width: 100.0%; height: 100.0%;">Tienda 89 (Nivel: C)</div>`)[0];
+                popup_e870e35d891adda73e864b9931aeaccc.setContent(html_747832a1046284cda62149e01c0739da);
+            
+        
+
+        marker_57cf06206528e42e0f68146c305038ed.bindPopup(popup_e870e35d891adda73e864b9931aeaccc)
+        ;
+
+        
+    
+    
+                marker_57cf06206528e42e0f68146c305038ed.setIcon(icon_1d0bd5ca4d0d71e0519fad746d2d115f);
+            
+    
+            var marker_7ac5412450127cd08febe90c565d7071 = L.marker(
+                [24.877417, -107.344025],
+                {
+}
+            ).addTo(map_1c06fc893aa4bdad0b055bedcff328da);
+        
+    
+            var icon_b8f01ae779491c4b4ffd458ef74f0de4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ab8d7880cbd1e44d862bbd086e206900 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6e295ce9ed9ab6fcc45c69c878318212 = $(`<div id="html_6e295ce9ed9ab6fcc45c69c878318212" style="width: 100.0%; height: 100.0%;">Tienda 90 (Nivel: B)</div>`)[0];
+                popup_ab8d7880cbd1e44d862bbd086e206900.setContent(html_6e295ce9ed9ab6fcc45c69c878318212);
+            
+        
+
+        marker_7ac5412450127cd08febe90c565d7071.bindPopup(popup_ab8d7880cbd1e44d862bbd086e206900)
+        ;
+
+        
+    
+    
+                marker_7ac5412450127cd08febe90c565d7071.setIcon(icon_b8f01ae779491c4b4ffd458ef74f0de4);
+            
+</script>
+</html>
