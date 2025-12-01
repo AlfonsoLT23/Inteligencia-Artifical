@@ -23,3 +23,5 @@ Unidad 1: Proyecto de Investigación y Presentación del tema: "Uso de la IA par
 Unidad 2: Proyecto de Optimizacion de Rutas de Distribucion utiizando Recocido Simulado
 
 Unidad 3: Proyecto de Optimización de Riego con Enjambre de Partículas
+
+Unidad 4: Proyecto de Sistema de Deteccion de Placas Vehiculares
